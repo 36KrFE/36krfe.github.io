@@ -189,12 +189,12 @@ The In’saneLab developer team is also not very fond of the documentation provi
 
 *   A large number of developers already know how to work with the framework
 
-## Is there such a thing as the best JavaScript framework?
+## 有最好的 Javascript 框架这一说么?
 
-Short answer? No. It depends on the company’s goals, requirements, and final functionality. For example, Angular2 is more like a jack of all trades, especially for big projects. It’s complex and requires a lot of time to fully learn and understand (but less than AngularJS). With JavaScript-centric React, on the other hand, a developer can scrap bits and pieces together to make something useful quickly and efficiently. 
+想要一个简单的答案? 没有。这跟公司目标、需求、以及最终的功能都有关系。举例来说，Angular2更像是一个百宝箱，特别适合大型项目。它非常复杂，并且需要花很多时间来全面的学习和掌握（但比 AngularJS 要简单一些）。但使用 Javascript 为核心的 React 来说，开发者就能拼拼凑凑很高效的做出一些有用的东西。 
+ 
+每个框架都在以不同的方式以实现适合用于不同场景的 [Web应用开发](https://insanelab.com/blog/web-development/10-mistakes-people-make-when-hiring-web-development-company/)，包括 MVP、创业公司和商业场景。
+ 
+因此你应该考虑找到这样一个人，他能帮你选择适用于开发并且能够跟得上业务发展需要的技术。
 
-Each of the frameworks represents a different approach to [web application development](https://insanelab.com/blog/web-development/10-mistakes-people-make-when-hiring-web-development-company/) for MVPs, startups, and businesses. 
-
-That’s also the reason why you should consider working with somebody who can advise you on choosing the best technology for your project, one that will not only be sufficient for the development phase but for growing the business as well. 
-
-And—guess what? [We can do that](http://insanelab.com/work).
+而36氪前端团队恰好具备这样的能力。**译者注：替换了最后一句广告。
