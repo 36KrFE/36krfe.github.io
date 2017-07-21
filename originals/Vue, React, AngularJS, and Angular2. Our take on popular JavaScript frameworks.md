@@ -4,7 +4,7 @@ That also points potential web developers in the right direction: if you’re in
 
 Let’s assume that you do know JavaScript fundamentals. The pure (no, not poor) thing. Provided the thesis is correct (meaning you do know the basics), you might be interested in learning a bit more about **modern JavaScript frameworks**. These abstractions often come with pre-loaded functionality and some way of structuring an app. 
 
-![JavaScript Frameworks](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
+![JavaScript Frameworks](https://insanelab.com/wp-content/uploads/2017/07/javascript_frameworks-1120x641.png)
 
 While some may consider that limiting, the majority of coders around the world prefer to work with frameworks (don’t confuse them with libraries), as they make the job easier, faster, and, frequently, more reliable. 
 
@@ -16,7 +16,7 @@ Below, you’ll find a short overview of our beloved technology and its respecti
 
 ## Vue.js. The cool kid on the block
 
-![Vue.js JavaScript framework](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
+![Vue.js JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_vue_js-1120x560.jpeg)
 
 This one is like a high-school superstar. It’s not a mature technology, so we really can’t say what will happen to Vue five years from now. Currently, however, **it’s among the most notable topics** on every possible conference agenda. 
 
@@ -66,7 +66,7 @@ What’s more, Vue.js has one of the best developer tools available for Chrome, 
 
 ## React.js. Leading the satisfaction statistics
 
-![React.js JavaScript framework](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
+![React.js JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_react_js-1120x588.png)
 
 Created by Facebook’s Jordan Walke, React is the fifth most popular GitHub project. In 2015, however, React.js (and React Native) were at the very top.
 
@@ -108,7 +108,7 @@ Furthermore, **React will be getting a “second life”** soon due to the annou
 
 ## AngularJS. Wisdom of elders
 
-![AngularJS JavaScript framework](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
+![AngularJS JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_angularjs.png)
 
 Google issued the first AngularJS framework in 2009, believing that declarative programming should be used to create user interfaces and connect various software components. On the other hand, imperative programming was supposed to define an application’s business logic. 
 
@@ -150,7 +150,7 @@ AngularJS is **one of the most used JavaScript frameworks for SPAs**, and also i
 
 ## Angular2 (or Angular for short)
 
-![](data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==)
+![](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_angular.png)
 
 While it may be hard to fully understand Angular2 concepts without digging into the source code, **the framework is pretty powerful** with a lot of things built in already.
 
