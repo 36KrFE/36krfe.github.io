@@ -64,11 +64,11 @@ What’s more, Vue.js has one of the best developer tools available for Chrome, 
 
 *   Usable for smaller modules like a calendar, contact form, or widgets
 
-## React.js. Leading the satisfaction statistics
+## React.js 满意度最高的框架
 
 ![React.js JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_react_js-1120x588.png)
 
-Created by Facebook’s Jordan Walke, React is the fifth most popular GitHub project. In 2015, however, React.js (and React Native) were at the very top.
+React是由Facebook的Jordan Walke创建的，流行度在GitHub排在第五名。然而，React.js（以及React Native）最火爆的时间点是在2015年。
 
 [_State of JS_](http://stateofjs.com/2016/frontend/) states that React has the highest developer satisfaction rating, at 92 percent. Together with Vue.js, they are in “a class of their own.” According to the survey, React users are [more likely than average](http://stateofjs.com/2016/frontend/) to have experimented with multiple other technologies before deciding which one to go with. 
 
