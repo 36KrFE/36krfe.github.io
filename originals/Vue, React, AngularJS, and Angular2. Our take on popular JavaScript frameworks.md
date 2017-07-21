@@ -70,7 +70,7 @@ What’s more, Vue.js has one of the best developer tools available for Chrome, 
 
 React是由Facebook的Jordan Walke创建的，流行度在GitHub排在第五名。然而，React.js（以及React Native）最火爆的时间点是在2015年。
 
-据[_State of JS_](http://stateofjs.com/2016/frontend/) 调查显示 React 的开发者满意度最高，达到92％. 与 Vue 基本在同一个级别，根据调查，React 的开发者[平均水平](http://stateofjs.com/2016/frontend/)更可能已经尝试了结合多种其他技术来使用框架。
+据[_State of JS_](http://stateofjs.com/2016/frontend/) 调查显示 React 的开发者满意度最高，达到92％. 与 Vue 基本在同一个级别，根据调查，React 的开发者较[平均水平](http://stateofjs.com/2016/frontend/)来说更可能已经尝试了结合多种其他技术来使用框架。
 **译者注：[_State of JS_](http://stateofjs.com/2016/frontend/) 认为 React 的使用者会更多的结合其它技术来使用框架（如Redux，ES6，Gulp等），而本文的原文：React users are more likely than average to have experimented with multiple other technologies before deciding which one to go with. 可能对[_State of JS_](http://stateofjs.com/2016/frontend/) 的内容解读有误。
 
 ## 随便挑5个 React.js 的特性说一下：
