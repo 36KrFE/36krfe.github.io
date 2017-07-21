@@ -74,39 +74,39 @@ React是由Facebook的Jordan Walke创建的，流行度在GitHub排在第五名�
 
 译者注：[_State of JS_](http://stateofjs.com/2016/frontend/) 认为 React 的使用者会更多的结合其它技术来使用框架（如Redux，ES6，Gulp等），而本文的原文：React users are more likely than average to have experimented with multiple other technologies before deciding which one to go with. 可能对[_State of JS_](http://stateofjs.com/2016/frontend/) 的内容解读有误。
 
-## 5 random facts about React.js
+## 随便挑5个 React.js 的特性说一下：
 
-*   **It handles only the “view” layer, which means that the business logic is decoupled and can be implemented in any way.**
+*   **框架只负责"View"层，这意味着其它业务逻辑是完成解耦的，并且可以以任何方式来实现。**
 
-*   **It has a great implementation of Flux architecture, called Redux.**
+*   **与框架相关的Redux是一个非常棒的类Flux架构的实现。**
 
-*   **For templating, it uses a syntax (JSX) that may be confusing at first.** 
+*   **模板方面，框架可以使用 JSX 语法，这个语法在刚上手时可能会有一点点难度。**
 
-*   **It allows developers to use their React.js knowledge to creative mobile applications with React Native.**
+*   **开发者掌握 React.js 的知识后，可以直接用于基于 React Native 的移动客户端开发。**
 
-Developers also value React for its **ability to utilize VirtualDOM** and the consequent speed of the framework. Often users are also a part of a huge community surrounding the technology. While maintained by Facebook, React is also growing thanks to open-source projects and additional modules. 
+React 对 VirtualDOM 的使用，以及由此获得的高性能广受开发者好评。经常使用框架的开发者也是这与这项技术相关的庞大社群的重要组成部分。React 的快速发展，除了 Facebook 的维护外，也要感谢开源项目以及第三方的模块。
 
-Furthermore, **React will be getting a “second life”** soon due to the announcement of React Fiber, a rewritten React with backward compatibility. 
+此外，随着 React 将会有一个能够向后兼容的重写版 React Fiber 的消息放出，**React的"第二春"** 很快就会到来。
 
-**React advantages for developers:**
+**对开发者来说，React 的优势在于:**
 
-*   Huge, supportive community
+*   庞大且活跃的社区
 
-*   Not a full-scale framework
+*   并非一个大而全的框架
 
-*   JSX, a JavaScript syntax, can be an advantage
+*   JSX 这种新的 javascript 语法，也是一个不错的优点
 
-*   Great developer tools
+*   相关的开发工具也很不错
 
-*   Forces modern best practices
+*   强制使用最新的最佳实践
 
-**React advantages for clients:**
+**对客户来说，React 的优势在于:**
 
-*   The majority of developers will be familiar with this framework
+*   大量的开发者熟悉这个框架
 
-*   Offers the capability of creating a mobile app using logic from web app with React Native
+*   React Native 使得 Web 应用的逻辑可以复用于移动客户端。
 
-*   Well tested environment that minimizes possible bugs and errors being produced by the framework itself
+*   有足够多的使用和测试场景来保证框架本身几乎没有bug和错误。
 
 ## AngularJS. Wisdom of elders
 
