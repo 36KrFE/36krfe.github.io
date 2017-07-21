@@ -64,7 +64,7 @@ What’s more, Vue.js has one of the best developer tools available for Chrome, 
 
 *   Usable for smaller modules like a calendar, contact form, or widgets
 
-## React.js 满意度最高的框架
+## React.js 是开发者满意度最高的框架
 
 ![React.js JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_react_js-1120x588.png)
 
