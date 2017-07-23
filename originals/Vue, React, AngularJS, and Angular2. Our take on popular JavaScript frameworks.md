@@ -106,87 +106,88 @@ Furthermore, **React will be getting a “second life”** soon due to the annou
 
 *   Well tested environment that minimizes possible bugs and errors being produced by the framework itself
 
-## AngularJS. Wisdom of elders
+## AngularJS 智慧长老
 
 ![AngularJS JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_angularjs.png)
 
-Google issued the first AngularJS framework in 2009, believing that declarative programming should be used to create user interfaces and connect various software components. On the other hand, imperative programming was supposed to define an application’s business logic. 
+Goole 在2009年第一次发布了AngularJs框架，鼓励使用声明式编程方法去创建用户界面和完成组件的连接，另一方面，指令式的编程用于实现程序的逻辑
 
-The actual author behind the technology is Miško Hevery from Brat Tech LLC. Back then, it was created to be the software behind an online JSON storage service. The business didn’t really take off, so the company abandoned the idea and released Angular as an open-source library.
+Brat Tech公司的Miško Hevery是这个技术的真正作者，当时,它被创建为在线JSON存储服务背后的软件。但是业务没有搞起来，所以公司放弃了这个想法，并将AngularJs作为一个开源库发布。
 
-AngularJS adapts and extends traditional HTML to present dynamic content through a two-way data-binding. 
+AngularJS使用双向数据绑定的方式，适配和扩展了传统的HTML来呈现动态内容。
 
-But while all that might sound interesting, **the truth is that AngularJS is… kinda old**. Actually, it’s the oldest framework of those described here. It’s four years older than ReactJS, five years older than Vue.js, and an astounding seven years older than Angular 2\. 
+所有这些可能听起来很有意思，**事实是AngularJs已经有点老了**
+实际上。 它是我们描述的框架里最老的了，大ReactJS 4岁，Vue.js的五岁，比Angular2 年长了7岁之多
 
-Nonetheless, it has the **largest number of contributors on GitHub** (1,562), followed by ReactJS, Angular 2 and Vue.js. 
+尽管如此，他拥有**Github上最多的贡献者**，随后是ReactJs， Angular2，Vue.js
 
-Admittedly, AngularJS has a steep learning curve. That disadvantage is somehow offset by a large community guaranteeing the existence of solutions to a majority of the problems a developer might encounter. 
+AngularJs有一个陡峭的学习曲线，这个缺点在某种程度上被一个大型社区抵消，保证开发人员可能遇到的大多数问题存在解决方案。
 
-## 5 random facts about AngularJS
+## 随便说AngularJS的5个事实
 
-*   **A lot of projects still use AngularJS, so knowing it is handy for maintaining them.**
+*   **仍然有许多项目使用AngularJs, 所以了解AngularJs方便你维护这些项目**
 
-*   **It provides viable and stable solutions for teams that don’t want to use the new Angular or Ember.js.**
+*   **为不想使用新的Angular或Ember.js的团队提供可行且稳定的解决方案**
 
-*   **It uses dirty checking (digest cycle); whether it’s better or worse than observable pattern depends on your needs.** 
+*   **使用脏值检查（digest cycle）;与观察者模式的比较取决于你的需求** 
 
-*   **YouTube’s app for Sony PlayStation 3 was developed with AngularJS.**
+*   **YouTube的PlayStation 3应用程序是用AngularJS开发的。**
 
-*   **It’s HTML-centric.**
+*   **以HTML为中心。**
 
-AngularJS is **one of the most used JavaScript frameworks for SPAs**, and also is a good option for enterprise-based apps. But it’s also old, and mostly used by older applications. 
+AngularJS 是**SPA中最常用的JavaScript框架之一**, 也是企业级应用程序的一个很好的选择。但是它确实很老了，大多时候是被老旧的应用采用。
 
-**AngularJS advantages for developers:**
+**AngularJs对开发者来说的优点:**
 
-*   In 2017, you probably shouldn’t start to learn it if you haven’t done so already
+*   在2017年，如果你还没有使用它，你完全可以忽略他了
 
-*   Use the new Angular or Ember if you need something more versatile.
+*   如果您需要更多功能的话，请使用新的Angular或Ember。
 
-**AngularJS advantages for clients:**
+**AngularJS对用户来说的优点:**
 
-*   Mainly used to maintain old applications that are not ready or not profitable enough to rewrite
+*   主要维护尚未准备好或无法获得足够重写的旧应用程序
 
-*   High cost of creating more complicated apps due to framework complexity.
+*   由于框架复杂性，创建更复杂应用程序的成本很高。
 
-## Angular2 (or Angular for short)
+*译者注： 各种黑，我X*
+## Angular2 (或者Angular)
 
 ![](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_angular.png)
 
-While it may be hard to fully understand Angular2 concepts without digging into the source code, **the framework is pretty powerful** with a lot of things built in already.
+尽管在不挖掘源代码的前提下，很难完全了解Angular2的概念, **它是一个非常强大的框架** 内置了相当多的功能.
 
-It’s a TypeScript-based open-source web application platform that came to life as a ground-up rewrite of AngularJS. Compared to the previous version, it doesn’t have a concept of scope or controllers. Instead, it uses a **hierarchy of components** as its main architectural concept. It also supports dynamic loading, has improved dependency injection, and provides simpler routing and asynchronous template compilation.
+以AngularJS为基础，使用Typescript重写。与以前的版本相比，它没有scope或controllers的概念。相反，它使用**组件层次结构化**作为其主要架构概念。支持动态加载，改进了依赖注入，并提供更为简单的路由和异步模板编译机制。
+## 关于Angular2的5个轻易发现的事实
 
-## 5 random facts about Angular2 (or Angular)
+*   **由TypeScript编写，允许开发人员使用TypeScript，Dart或纯粹的ECMAScript。**
 
-*   **It uses TypeScript, which allows developers to use Dart or plain ECMAScript.**
+*   **使用装饰器的TS类的组件模式。**
 
-*   **It utilizes a components pattern using TS classes with decorators.**
+*   **陡峭的学习曲线**
 
-*   **There’s a steep learning curve.**
+*   **开发过程很快。**
 
-*   **The development process is fast.**
+*   **高级的的测试特性**
+ 
+基本上，Angular**可以摆脱AngularJS中存在的不必要的复杂性**。然而，许多人认为，即使使用CLI，单个开发人员的配置和设置过程仍然可能太长。
 
-*   **It has advanced testing features.**
+In'saneLab开发团队也不太喜欢提供文档，特别是对于JS和Dart。另一方面，他们又喜欢将技术分解成很多模块。
 
-Basically, Angular **gets rid of the unnecessary complexity** that was present in AngularJS. Many think, however, that it still may be too long of a configuration and setup process for a single developer—even with CLI. 
+**Angular 对开发者的优点:**
 
-The In’saneLab developer team is also not very fond of the documentation provided, especially for JS and Dart. On the other hand, they do appreciate splitting the technology into a lot of modules.
+*   你喜欢 TypeScript 就happy了
 
-**Angular advantages for developers:**
+*   强制规定编写代码的方式，使得它成为与多个开发人员合作的好选择
 
-*   If you like TypeScript you’ll be happy 
+*   使用同一个库开发移动和桌面应用程序
 
-*   Enforces the way you write code, which makes it a good choice when working with multiple developers
+*   对于具有很多代码的单页应用程序是个不错的解决方案
 
-*   Uses a single code base for both mobile and desktop apps
+**Angular 对客户来说的优点:**
 
-*   Good solution for a dynamic single page app with a lot of client-side code
+*   使用该框架构建企业应用程序可能会降低成本
 
-**Angular advantages for clients:**
-
-*   Because of the way the framework is built it may lower the cost for enterprise apps
-
-*   A large number of developers already know how to work with the framework
+*   大量开发人员已经知道如何使用框架
 
 ## Is there such a thing as the best JavaScript framework?
 
