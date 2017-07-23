@@ -1,68 +1,68 @@
-Here’s a fun fact: JavaScript was named among the best programming languages to learn in 2017 by no other than [IBM](https://www.ibm.com/developerworks/community/blogs/d13a8e32-0870-49cb-9b0d-ba0e34fa6561/entry/Which_Are_The_Best_Programming_Languages_to_Learn_in_2017?lang=en). The IT giant noted that **JS is used by a stunning 94.4 percent of websites** and “that’s unlikely to change.” JavaScript ensures “great user-friendly web pages, as it responsible for the overall web interface, including animations and interactions.” No matter how you look at this, JavaScript matters. 
+一个有趣的事实是：[IBM](https://www.ibm.com/developerworks/community/blogs/d13a8e32-0870-49cb-9b0d-ba0e34fa6561/entry/Which_Are_The_Best_Programming_Languages_to_Learn_in_2017?lang=en)发表的2017年最值得学习编程语言名单中，JavaScript榜上有名。正是这位IT巨头指出，**JS在网站中惊人地达到94.4％的使用率**，而且“不太可能降低”。JavaScript能确保“对用户非常友好的网页，因为它负责整个web界面，包括动画和交互”。不管你怎么看，JavaScript很重要。
 
-That also points potential web developers in the right direction: if you’re into front end, you need to face JavaScript at some point. And a [proper development map](https://hackernoon.com/a-map-to-modern-javascript-development-2017-16d9eb86309c) might help with that.
+这也指明了潜在Web开发人员的方向：如果你正要进入前端，你必须在某些时刻面对JavaScript。并且[正确的开发指南](https://hackernoon.com/a-map-to-modern-javascript-development-2017-16d9eb86309c)可能有助于此。
 
-Let’s assume that you do know JavaScript fundamentals. The pure (no, not poor) thing. Provided the thesis is correct (meaning you do know the basics), you might be interested in learning a bit more about **modern JavaScript frameworks**. These abstractions often come with pre-loaded functionality and some way of structuring an app. 
+让我们假设你知道JavaScript基础知识。纯JS（不是一无所知）的那种。如果论断是对的（意思是你了解基础），你可能有兴趣更多地学习**现代JavaScript框架们**。这些概念通常带有预置的函数和一些构建应用程序的方法。
 
 ![JavaScript Frameworks](https://insanelab.com/wp-content/uploads/2017/07/javascript_frameworks-1120x641.png)
 
-While some may consider that limiting, the majority of coders around the world prefer to work with frameworks (don’t confuse them with libraries), as they make the job easier, faster, and, frequently, more reliable. 
+有些人可能会局限的考虑，世界上大多数编程人员更喜欢使用框架（不要将它们与库混淆），因为它们使工作更容易，更快速，而且通常情况更可靠。
 
-All right! Having said all that, it’s time to dig a little deeper. 
+好吧！说完这些，现在是深入挖掘的时候了。
 
-Our development team prepared a list of the frameworks that they use on a daily basis. While there surely are [more JavaScript frameworks](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks) around, these are the ones that we focus most on.
+我们的开发团队准备了他们每天使用的框架清单。虽然周围肯定有[更多的JavaScript框架](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks)，这些是我们最关注的。
 
-Below, you’ll find a short overview of our beloved technology and its respective features.
+下面，你会看到我们所爱的技术及其各自的特点作简单概述。
 
-## Vue.js. The cool kid on the block
+## 大街上的酷小孩－Vue.js。
 
 ![Vue.js JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_vue_js-1120x560.jpeg)
 
-This one is like a high-school superstar. It’s not a mature technology, so we really can’t say what will happen to Vue five years from now. Currently, however, **it’s among the most notable topics** on every possible conference agenda. 
+这个就像一个还读高中的超级巨星。Ta不是一个成熟的技术，所以我们真的不能说，五年后，Vue会发生什么。然而目前，它是每个可能的会议议程中**最显着的主题之一**。
 
-If you decide to grab a beer with a JS geek, he’ll talk about Vue. If Vue was a pop star, it would be whoever is on top right now. If… Well, you get the idea.
+如果你决定和JS极客喝两杯，他会谈论Vue。如果Vue是个流行歌星，那么现在Ta就是最红的。如果...嗯，你明白这意思。
 
-It was first established in February 2014 by Evan You. In 2016, Vue.js had an amazing [89 percent developer satisfaction rating](http://stateofjs.com/2016/frontend/) and is currently one of the [most starred projects on GitHub](https://github.com/search?p=1&q=stars%3A%3E1&s=stars&type=Repositories) of all time. 
+它由尤雨溪首次成立于2014年2月。在2016年，Vue.js拥有惊人的[89％的开发人员满意度评估](http://stateofjs.com/2016/frontend/)，目前是[GitHub中star最多的项目之一](https://github.com/search?p=1&q=stars%3A%3E1&s=stars&type=Repositories)。
 
-But enough about the buzz. What is Vue.js? To start, it is both the fastest and the smallest framework of all JavaScript frameworks described in this article. Its **syntax and principles don’t require much hustle to dive into**. What’s more, it also has extensive documentation. There’s a huge chance that the action you’d like to perform has already been documented. On the other hand, if an action is not documented, you have a small chance of finding the solution online, since Vue is less popular than Angular or React.
+虚的说差不多该来点实际的。什么是Vue.js？首先，它是本文中讨论的所有JavaScript框架中最快最小的那个。Ta的**语法和原理不需要太多的学习成本**。此外，Ta还具有高覆盖率的文档。你想要执行的操作绝大部分情况已被记录在案。另一方面，如果一个操作没有文档记录，你很少有机会在线查找解决方案，因为Vue不如Angular或React那么受欢迎。
 
-_Note: Vue is pronounced the same way as “view.”_
+_注意：Vue的发音和“view”一样。_
 
-## 5 random facts about Vue.js
+## 随便挑5个Vue.js的特性说一下：
 
-*   **It can be extended through its plugin system.**
+*   **便于扩展的插件系统。**
 
-*   **It has a library for server-side rendering (Nuxt.js).**
+*   **有能服务端渲染的库(Nuxt.js)。**
 
-*   **It supports scoped styles straight away.**
+*   **支持范围样式。**
 
-*   **It has a CLI tool that allows you to quickly scaffold Single Page Applications through setups for a modern front-end workflow.**
+*   **有一个CLI工具，允许你通过先进的前端工作流设置，快速构建单页应用程序。**
 
-*   **It’s used in Laravel 5.4 and newer for handling frontend templates.**
+*   **在Laravel 5.4的更新用于处理前端模板。**
 
-Just like React, **Vue.js handles only the view layer**. That way, it lets developers implement their own business logic. It’s also known for the implementation of the Flux architecture, Vuex. As our teammate, Maciej Kolodziejczak, puts it:
+就像React一样，**Vue.js仅处理视图层**。这样，Ta可以让开发人员实现自己的业务逻辑。Ta也有被称为Flux架构实现的Vuex。作为我们的队友，36Kr某员工说：
 
-> Vuex, in my opinion, is way better and easier to use than React’s Redux.
+> 在我看来，Vuex比React的Redux更好，更容易使用。
 
-What’s more, Vue.js has one of the best developer tools available for Chrome, and Vue’s syntax is used by Weex, a React Native competitor for building native mobile apps with JavaScript. It’s worth noting, though, that **Weex is not really ready, especially for commercial projects**. Currently it’s more of an approach than an actual technology.
+此外，Vue.js是Chrome的最佳开发人员工具之一，Weex（一个React Native的竞争对手）也使用Vue的语法，实现用JavaScript构建原生移动应用。值得注意的是，**Weex并不太完善，特别是商业项目**。目前，Ta更多的是一个方案而不是一种实际的技术。
 
-**Vue.js advantages for developers:**
+**对开发者来说，Vue.js的点在于：**
 
-*   Easy to learn and understand, which enables rapid app development
+*   易于学习和理解，能快速开发应用程序
 
-*   Integrates with Laravel, so a developer with Vue knowledge becomes a useful addition to a team that produces apps and back ends with Laravel
+*   与Laravel集成，所以具有Vue知识的开发人员对使用Laravel开发应用程序的后端团队有所补充
 
-*   Provides a quick start due to a very convenient CLI tool
+*   由于非常方便的CLI工具，可以快速启动
 
-*   Has a lot of additional modules like router and state management tools; although not as many as other frameworks have
+*   有很多额外的模块，如路由器和状态管理工具；虽然不如其他框架那么多
 
-**Vue.js advantages for clients:**
+**对客户来说，Vue.js的点在于：**
 
-*   Lower cost for a front-end application as well as a full-feature web application when working with a combination of  Laravel and Vue.js 
+*   降低前端应用程序和全功能Web应用程序的成本，在使用Laravel和Vue.js的组合时
 
-*   Fast and reliable solution that guarantees stability
+*   快速可靠的解决方案，保证稳定性
 
-*   Usable for smaller modules like a calendar, contact form, or widgets
+*   较小的模块很适用，如日历，联系表单或小部件
 
 ## React.js. Leading the satisfaction statistics
 
