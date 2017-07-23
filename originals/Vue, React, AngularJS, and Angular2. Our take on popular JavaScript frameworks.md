@@ -64,47 +64,48 @@ _注意：Vue的发音和“view”一样。_
 
 *   较小的模块很适用，如日历，联系表单或小部件
 
-## React.js. Leading the satisfaction statistics
+## React.js 是开发者满意度最高的框架
 
 ![React.js JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_react_js-1120x588.png)
 
-Created by Facebook’s Jordan Walke, React is the fifth most popular GitHub project. In 2015, however, React.js (and React Native) were at the very top.
+React是由Facebook的Jordan Walke创建的，流行度在GitHub排在第五名。然而，React.js（以及React Native）最火爆的时间点是在2015年。
 
-[_State of JS_](http://stateofjs.com/2016/frontend/) states that React has the highest developer satisfaction rating, at 92 percent. Together with Vue.js, they are in “a class of their own.” According to the survey, React users are [more likely than average](http://stateofjs.com/2016/frontend/) to have experimented with multiple other technologies before deciding which one to go with. 
+据[_State of JS_](http://stateofjs.com/2016/frontend/) 调查显示 React 的开发者满意度最高，达到92％. 与 Vue 基本在同一个级别，根据调查，React 的开发者较[平均水平](http://stateofjs.com/2016/frontend/)来说更可能已经尝试了结合多种其他技术来使用框架。
+**译者注：[_State of JS_](http://stateofjs.com/2016/frontend/) 认为 React 的使用者会更多的结合其它技术来使用框架（如Redux，ES6，Gulp等），而本文的原文：React users are more likely than average to have experimented with multiple other technologies before deciding which one to go with. 可能对[_State of JS_](http://stateofjs.com/2016/frontend/) 的内容解读有误。
 
-## 5 random facts about React.js
+## 随便挑5个 React.js 的特性说一下：
 
-*   **It handles only the “view” layer, which means that the business logic is decoupled and can be implemented in any way.**
+*   **框架只负责"View"层，这意味着其它业务逻辑是完成解耦的，并且可以以任何方式来实现。**
 
-*   **It has a great implementation of Flux architecture, called Redux.**
+*   **与框架相关的Redux是一个非常棒的类Flux架构的实现。**
 
-*   **For templating, it uses a syntax (JSX) that may be confusing at first.** 
+*   **模板方面，框架可以使用 JSX 语法，这个语法在刚上手时可能会有一点点难度。**
 
-*   **It allows developers to use their React.js knowledge to creative mobile applications with React Native.**
+*   **开发者掌握 React.js 的知识后，可以直接用于基于 React Native 的移动客户端开发。**
 
-Developers also value React for its **ability to utilize VirtualDOM** and the consequent speed of the framework. Often users are also a part of a huge community surrounding the technology. While maintained by Facebook, React is also growing thanks to open-source projects and additional modules. 
+React 对 VirtualDOM 的使用，以及由此获得的高性能广受开发者好评。经常使用框架的开发者也是这与这项技术相关的庞大社群的重要组成部分。React 的快速发展，除了 Facebook 的维护外，也要感谢开源项目以及第三方的模块。
 
-Furthermore, **React will be getting a “second life”** soon due to the announcement of React Fiber, a rewritten React with backward compatibility. 
+此外，随着 React 将会有一个能够向后兼容的重写版 React Fiber 的消息放出，**React的"第二春"** 很快就会到来。
 
-**React advantages for developers:**
+**对开发者来说，React 的优势在于:**
 
-*   Huge, supportive community
+*   庞大且活跃的社区
 
-*   Not a full-scale framework
+*   并非一个大而全的框架
 
-*   JSX, a JavaScript syntax, can be an advantage
+*   JSX 这种新的 javascript 语法，也是一个不错的优点
 
-*   Great developer tools
+*   相关的开发工具也很不错
 
-*   Forces modern best practices
+*   强制使用最新的最佳实践
 
-**React advantages for clients:**
+**对客户来说，React 的优势在于:**
 
-*   The majority of developers will be familiar with this framework
+*   大量的开发者熟悉这个框架
 
-*   Offers the capability of creating a mobile app using logic from web app with React Native
+*   React Native 使得 Web 应用的逻辑可以复用于移动客户端。
 
-*   Well tested environment that minimizes possible bugs and errors being produced by the framework itself
+*   有足够多的使用和测试场景来保证框架本身几乎没有bug和错误。
 
 ## AngularJS 智慧长老
 
@@ -189,12 +190,12 @@ In'saneLab开发团队也不太喜欢提供文档，特别是对于JS和Dart。�
 
 *   大量开发人员已经知道如何使用框架
 
-## Is there such a thing as the best JavaScript framework?
+## 有最好的 Javascript 框架这一说么?
 
-Short answer? No. It depends on the company’s goals, requirements, and final functionality. For example, Angular2 is more like a jack of all trades, especially for big projects. It’s complex and requires a lot of time to fully learn and understand (but less than AngularJS). With JavaScript-centric React, on the other hand, a developer can scrap bits and pieces together to make something useful quickly and efficiently. 
+想要一个简单的答案? 没有。这跟公司目标、需求、以及最终的功能都有关系。举例来说，Angular2更像是一个百宝箱，特别适合大型项目。它非常复杂，并且需要花很多时间来全面的学习和掌握（但比 AngularJS 要简单一些）。但使用以 Javascript 为核心的 React 的话，开发者就能拼拼凑凑很高效的做出一些有用的东西。 
 
-Each of the frameworks represents a different approach to [web application development](https://insanelab.com/blog/web-development/10-mistakes-people-make-when-hiring-web-development-company/) for MVPs, startups, and businesses. 
+每个框架都在以不同的方式以实现适合用于不同场景的 [Web应用开发](https://insanelab.com/blog/web-development/10-mistakes-people-make-when-hiring-web-development-company/)，包括 MVP、创业公司和商业场景。
 
-That’s also the reason why you should consider working with somebody who can advise you on choosing the best technology for your project, one that will not only be sufficient for the development phase but for growing the business as well. 
+因此你应该考虑找到这样一个人，他能帮你选择适用于开发并且能够跟得上业务发展需要的技术。
 
-And—guess what? [We can do that](http://insanelab.com/work).
+而36氪前端团队恰好具备这样的能力。**译者注：替换了最后一句广告。
