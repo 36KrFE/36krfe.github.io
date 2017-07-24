@@ -1,30 +1,30 @@
 一个有趣的事实是：[IBM](https://www.ibm.com/developerworks/community/blogs/d13a8e32-0870-49cb-9b0d-ba0e34fa6561/entry/Which_Are_The_Best_Programming_Languages_to_Learn_in_2017?lang=en)发表的2017年最值得学习编程语言名单中，JavaScript榜上有名。正是这位IT巨头指出，**JS在网站中惊人地达到94.4％的使用率**，而且“不太可能降低”。JavaScript能确保“对用户非常友好的网页，因为它负责整个web界面，包括动画和交互”。不管你怎么看，JavaScript很重要。
 
-这也指明了潜在Web开发人员的方向：如果你正要进入前端，你必须在某些时刻面对JavaScript。并且[正确的开发指南](https://hackernoon.com/a-map-to-modern-javascript-development-2017-16d9eb86309c)可能有助于此。
+这也指明了潜在Web开发人员的方向：如果你深入前端，你不得不在某些时刻面对JavaScript。并且[正确的开发指南](https://hackernoon.com/a-map-to-modern-javascript-development-2017-16d9eb86309c)可能有助于此。
 
-让我们假设你知道JavaScript基础知识。纯JS（不是一无所知）的那种。如果论断是对的（意思是你了解基础），你可能有兴趣更多地学习**现代JavaScript框架们**。这些概念通常带有预置的函数和一些构建应用程序的方法。
+让我们假设你知道JavaScript基础知识。纯JS（不是一无所知）的那种。如果假设是正确的（意思是你了解基础），你可能对**现代JavaScript框架们**的学习更感兴趣。这些框架通常带有预置的函数和一些构建应用程序的方法。
 
 ![JavaScript Frameworks](https://insanelab.com/wp-content/uploads/2017/07/javascript_frameworks-1120x641.png)
 
-有些人可能会局限的考虑，世界上大多数编程人员更喜欢使用框架（不要将它们与库混淆），因为它们使工作更容易，更快速，而且通常情况更可靠。
+有些人可能会有局限性的思考，认为世界上大多数开发者更喜欢使用框架（不要将它们与库混淆），因为它们使工作更容易，更快速，在通常情况下更可靠。
 
-好吧！说完这些，现在是深入挖掘的时候了。
+好吧！说完这些，是时候该深挖一点儿了。
 
 我们的开发团队准备了他们每天使用的框架清单。虽然周围肯定有[更多的JavaScript框架](https://en.wikipedia.org/wiki/Comparison_of_JavaScript_frameworks)，这些是我们最关注的。
 
-下面，你会看到我们所爱的技术及其各自的特点作简单概述。
+接下来，你会看到我们所爱的技术及其各自的特点的简单概述。
 
 ## 大街上的酷小孩－Vue.js。
 
 ![Vue.js JavaScript framework](https://insanelab.com/wp-content/uploads/2017/07/javascript_framework_vue_js-1120x560.jpeg)
 
-这个就像一个还读高中的超级巨星。Ta不是一个成熟的技术，所以我们真的不能说，五年后，Vue会发生什么。然而目前，它是每个可能的会议议程中**最显着的主题之一**。
+这个就像一个还在读高中的超级巨星。它不是一个成熟的技术，所以我们真的无法说，五年后，Vue会发生什么。然而目前，它可能是每个会议议程中**最引人注目的话题**。
 
-如果你决定和JS极客喝两杯，他会谈论Vue。如果Vue是个流行歌星，那么现在Ta就是最红的。如果...嗯，你明白这意思。
+如果你决定和JS极客喝两杯，他会谈论Vue。如果Vue是个流行歌星，那么现在它就是最红的。如果...嗯，你明白我的意思。
 
-它由尤雨溪首次成立于2014年2月。在2016年，Vue.js拥有惊人的[89％的开发人员满意度评估](http://stateofjs.com/2016/frontend/)，目前是[GitHub中star最多的项目之一](https://github.com/search?p=1&q=stars%3A%3E1&s=stars&type=Repositories)。
+它由尤雨溪在2014年2月建立。在2016年，Vue.js拥有惊人的[89％的开发人员满意度评估](http://stateofjs.com/2016/frontend/)，目前是[GitHub中star最多的项目之一](https://github.com/search?p=1&q=stars%3A%3E1&s=stars&type=Repositories)。
 
-虚的说差不多该来点实际的。什么是Vue.js？首先，它是本文中讨论的所有JavaScript框架中最快最小的那个。Ta的**语法和原理不需要太多的学习成本**。此外，Ta还具有高覆盖率的文档。你想要执行的操作绝大部分情况已被记录在案。另一方面，如果一个操作没有文档记录，你很少有机会在线查找解决方案，因为Vue不如Angular或React那么受欢迎。
+虚的说差不多了，来点实际的。什么是Vue.js？首先，它是本文中讨论的所有JavaScript框架中最快最小的。它的**语法和原理所需要的学习成本不是很高**。此外，它还具有高覆盖率的文档。你想要执行的操作绝大部分情况已被记录在案。此外，如果一个操作没有文档记录，你能在线上找到解决方案的几率很小，因为Vue不如Angular或React更流行。
 
 _注意：Vue的发音和“view”一样。_
 
@@ -32,19 +32,19 @@ _注意：Vue的发音和“view”一样。_
 
 *   **便于扩展的插件系统。**
 
-*   **有能服务端渲染的库(Nuxt.js)。**
+*   **拥有在使用服务端渲染时的库(Nuxt.js)。**
 
 *   **支持范围样式。**
 
 *   **有一个CLI工具，允许你通过先进的前端工作流设置，快速构建单页应用程序。**
 
-*   **在Laravel 5.4的更新用于处理前端模板。**
+*   **被加入 Laravel 5.4 的新特性中，用来处理前端模板**
 
-就像React一样，**Vue.js仅处理视图层**。这样，Ta可以让开发人员实现自己的业务逻辑。Ta也有被称为Flux架构实现的Vuex。作为我们的队友，36Kr某员工说：
+就像React一样，**Vue.js仅处理视图层**。也就是，它让开发人员自己实现他们的业务逻辑。它也有被称为Flux架构实现的Vuex。作为我们的队友，36Kr某员工说：
 
-> 在我看来，Vuex比React的Redux更好，更容易使用。
+> 在我看来，Vuex比React的Redux使用起来更好，更容易。
 
-此外，Vue.js是Chrome的最佳开发人员工具之一，Weex（一个React Native的竞争对手）也使用Vue的语法，实现用JavaScript构建原生移动应用。值得注意的是，**Weex并不太完善，特别是商业项目**。目前，Ta更多的是一个方案而不是一种实际的技术。
+此外，Vue.js在Chrome中拥有最好的开发者工具，并且 Weex 也使用Vue的语法, 它是一个通过 JavaScript 构建原生应用的框架，也是 React Native 的竞争对手。值得注意的是，**Weex并不太完善，特别是对于商业项目**。目前，它更多的是一个方案而不是一个真正的技术。
 
 **对开发者来说，Vue.js的点在于：**
 
@@ -52,7 +52,7 @@ _注意：Vue的发音和“view”一样。_
 
 *   与Laravel集成，所以具有Vue知识的开发人员对使用Laravel开发应用程序的后端团队有所补充
 
-*   由于非常方便的CLI工具，可以快速启动
+*   拥有非常方便的CLI工具，可以快速启动
 
 *   有很多额外的模块，如路由器和状态管理工具；虽然不如其他框架那么多
 
@@ -60,7 +60,7 @@ _注意：Vue的发音和“view”一样。_
 
 *   降低前端应用程序和全功能Web应用程序的成本，在使用Laravel和Vue.js的组合时
 
-*   快速可靠的解决方案，保证稳定性
+*   在保证稳定性的同时，是一个快速可靠的解决方案
 
 *   较小的模块很适用，如日历，联系表单或小部件
 
