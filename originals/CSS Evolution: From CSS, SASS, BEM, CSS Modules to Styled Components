@@ -1,16 +1,16 @@
-Since the beginnings of the Internet we’ve always had the need to style our websites, CSS has been around forever and has evolved at its own pace over the years, this article will take you through it.
+自从有互联网以来，我们就需要给我们的网站设计样式，而CSS也一直存在并以自己的速度发展起来，这篇文章将会让您了解它。
 
-To begin with we need to be on the same page of what CSS is, I think we can all agree that css is used for describing the [presentation](https://en.wikipedia.org/wiki/Presentation_semantics "Presentation semantics") of a document written in a [markup language](https://en.wikipedia.org/wiki/Markup_language "Markup language").
+首先,在什么是CSS上我们需要有相同的认识，我认为我们都同意CSS是一种用于描述用[标记语言](https://en.wikipedia.org/wiki/Markup_language "Markup language")编写的文档的[演示文稿](https://en.wikipedia.org/wiki/Presentation_semantics "Presentation semantics")。
 
-It’s no news that CSS has evolved along the way and has become more powerful nowadays, but it’s widely known that additional tooling needs to be used in order to make css somehow work for teams.
+众所周知，虽然CSS变得越来越强大已，但是要想CSS为我们的项目服务仍需要我们使用额外的工具。
 
-### CSS in the wild-west
+### CSS的西部蛮荒时期
 
-In the 90’s we use to focus on creating “fancy” interfaces, the wow factor was the most important thing, inline styles were the thing back then, we just didn’t care if things looked different, in the end Webpages were like cute toys we could threw some gifs, marquees and other horrible (at the time impressive) elements over and expect to catch your visitors’ attention.
+在90年代，我们专注于创造“花式”界面，网页令人拍案叫绝是最重要的事情， 内联风格的样式就是在这个时候, 我们并不care网页是不是看起来很怪异，并会扔一些gifs，marquess和其他“可怕的”（当时令人印象深刻的）元素进我们的网页，最终网页就会像一个可爱的玩具，只希望能吸引访客的注意力。
 
 ![](http://p0.qhimg.com/t0136ab3bd2107bcd0d.png)
 
-After that, we started creating dynamic sites, but css remained a consistent mess, every developer had his/her way of doing css. Some of us struggled with **specificity**, causing visual regressions when introducing new code, we relied on using **!important** to set in stone our strong will to make a UI element look in a certain way. But we soon realized that:
+在那之后，我们开始创建动态网站， 但是CSS还是一如既往的混乱，每个开发人员都有自己的编写CSS的方式。 我们中的一些人在**特征**挣扎, 当我们引入新代码时会导致页面的混乱， 我们不得不依靠我们强大的如顽石般的意志力用 **!important** 让我们的页面看起来正常一点。 但是我们很快意识到：
 
 ![](http://p0.qhimg.com/t019e6fb41afe19a33f.jpg)
 
@@ -189,4 +189,3 @@ Having a theme lets you have 1 source of truth of values that can be reused thro
 Whatever technology you use whether it is SASS, BEM, CSS Modules or Styled Components there is no substitute for a well defined styling architecture that makes it intuitive for other developers to contribute to your code base without thinking too much, breaking or introducing new moving parts to the system.
 
 This approach is crucial to scale properly and can be achieved even if using plain CSS and BEM, the main difference is the amount of work and LOC needed for each implementation, overall styled-components feels like a great suit for pretty much all React projects, yet to test it in the wild but quite promising indeed.
-                
