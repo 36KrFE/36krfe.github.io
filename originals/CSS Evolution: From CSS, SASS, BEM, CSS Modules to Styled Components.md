@@ -134,7 +134,7 @@ CSS-Modules 在 React 生态系统中迅速获得普及，现在许多 react 项
 
 你可以使用参数 `localIdentName` 来设置前缀的名称。如: `css-loader?localIdentName=[path][name]---[local]---[hash:base64:5]` 以便简化调试.
 
-这就是 Local CSS Modules 背后的简单规则。如果可以看到，Local CSS Modules 通过生成一个唯一的className来自动化BEM符号的方式，确保它不会与他人冲突，即使他们使用相同的名称。这很方便！
+这就是 Local CSS Modules 背后的简单规则。Local CSS Modules 通过生成一个唯一的className来自动化BEM符号的方式，确保它不会与他人冲突，即使他们使用相同的名称。这很方便！
 
 ### Styled Components to blend css in JS (fully)
 
