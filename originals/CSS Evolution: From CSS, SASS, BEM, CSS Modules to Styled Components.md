@@ -56,29 +56,85 @@ But, another set of problems came along:
 
 *   Markup became unnecessarily semantic
 
-### CSS Modules and local scope
+### CSS Modules 和本地作用域
 
-Some of the problems that neither SASS or BEM fixed was that in the language logic there is no concept of true encapsulation, thus relying on the developer to choose unique class names. A process that felt could be solved by tools rather by conventions.
+SASS或BEM都没有解决的问题是在语言逻辑中没有真正封装的概念，因此依靠开发人员选择唯一的class名。感觉可以通过工具而不是通过约定来解决这个问题。
 
-And this is exactly what CSS modules did, it relied on creating a dynamic class names for each locally defined style, making sure no visual regressions are caused by injecting new css properties, all styles were properly encapsulated.
+这正是 CSS modules 所做的，它为每个本地定义的样式创建动态class名，以确保注入新的CSS属性不会互相影响，所有样式都被正确地封装。
 
-CSS-Modules quickly gained popularity in the React ecosystem and now it’s common to see many react projects using it, it has it’s pros and cons but over all it proves to be a good paradigm to use.
+CSS-Modules 在 React 生态系统中迅速获得普及，现在许多 react 项目都使用它，虽然有利有弊，但它已经被证明是一个很好的实践。
 
-But… CSS Modules by itself doesn’t solve the core problems of CSS, it only shows you a way of localizing style definitions: _a clever way of automating BEM so you don’t need to think about chosing a class name ever again_ (or at least think about it less).
+但是，CSS Modules 本身并不能解决CSS的核心问题，只实现了一种本地化样式定义的方式：一种使BEM自动化的聪明方法，因此您不必为定义class名称焦虑了（或至少可以少考虑一些）。
 
-But it does not alleviate the need for a good and predictable style architecture that is easy to extend reuse and control with the least amount of effort.
+但是它并没有减轻对一个好的和可预测的风格架构的需求，好架构才可以让重用和可控的成本最低。
 
-This is how local css looks like:
+现在本地的CSS看起来是这样的:
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+```
 
-You can see that it’s just css, the main difference is that all classNames prepended with :local will generate a unique class name that looks something like this:
+@import '~tools/theme';
+
+:local(.root) {
+  border: 1px solid;
+  font-family: inherit;
+  font-size: 12px;
+  color: inherit;
+  background: none;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: 0;
+  font-weight: 700;
+  outline: none;
+  position: relative;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  padding: 10px 20px;
+  margin: 0;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+@mixin button($bg-color, $font-color) {
+  background: $bg-color;
+  color: $font-color;
+  border-color: $font-color;
+
+  &:focus {
+    border-color: $font-color;
+    background: $bg-color;
+    color: $font-color;
+  }
+
+  &:hover {
+    color: $font-color;
+    background: lighten($bg-color, 20%);
+  }
+
+  &:active {
+    background: lighten($bg-color, 30%);
+    top: 2px;
+  }
+}
+
+:local(.primary) {
+  @include button($color-primary, $color-white)
+}
+
+:local(.secondary) {
+  @include button($color-white, $color-primary)
+}
+
+```
+
+可以看到，长得很像css，最主要的区别就是前缀为 :local 的 class 名，会自动生成如下面这样的 class 名： 
 
 .app-components-button-__root — 3vvFf {}
 
-You can configure the generated ident with the `localIdentName` query parameter. Example: `css-loader?localIdentName=[path][name]---[local]---[hash:base64:5]` for easier debugging.
+你可以使用参数 `localIdentName` 来设置前缀的名称。如: `css-loader?localIdentName=[path][name]---[local]---[hash:base64:5]` 以便简化调试.
 
-That’s the simple principle behind Local CSS Modules. If you can see, local modules became a way to automate the BEM notation by generating a unique className that was sure it wouldn’t clash with other’s even if they used the same name. Quite convenient.
+这就是 Local CSS Modules 背后的简单规则。如果可以看到，Local CSS Modules 通过生成一个唯一的className来自动化BEM符号的方式，确保它不会与他人冲突，即使他们使用相同的名称。这很方便！
 
 ### Styled Components to blend css in JS (fully)
 
