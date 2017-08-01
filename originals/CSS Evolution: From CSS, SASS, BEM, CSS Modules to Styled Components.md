@@ -102,45 +102,224 @@ This allows us to move faster and use the full power of JS to process our styles
 
 ### Core UI for everyone to reuse
 
-It quickly became apparent that CSS Modules nor Styled Components by themselves was not the perfect solution, it needed some kind of pattern in order for it to work and scale. The pattern emerged by defining what a component is and separating it fully from logic, creating core components which sole purpose is to style and nothing more.
+很明显，CSS Modules和Styled Components本身不是完美的解决方案，它需要某种模式才能工作和扩展。这个模式就是定义一个分离了逻辑后只包含UI样式的核心组件
+使用CSS Modules实现的一个此类组件:
+```javascript
+import React from "react";
 
-An example implementation of such component using CSS Modules:
+import classNames from "classnames";
+import styles from "./styles";
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+const Button = (props) => {
+  const { className, children, theme, tag, ...rest } = props;
+  const CustomTag = `${tag}`;
+  return (
+    <CustomTag { ...rest } className={ classNames(styles.root, theme, className) }>
+      { children }
+    </CustomTag>
+  );
+};
 
-If you see, there’s nothing fancy in here, just a component that receives props and those are mapped to the children component. In other words: the wrapping component transfers all the props to the children.
+Button.theme = {
+  secondary: styles.secondary,
+  primary: styles.primary
+};
 
-Then your component can be consumed in the following way
+Button.defaultProps = {
+  theme: Button.theme.primary,
+  tag: "button"
+};
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+Button.displayName = Button.name 
 
-Let me show you a similar example of a full implementation of a button using styled-components:
+;
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+Button.propTypes = {
+  theme: React.PropTypes.string,
+  tag: React.PropTypes.string,
+  className: React.PropTypes.string,
+  children: React.PropTypes.oneOfType([
+    React.PropTypes.string,
+    React.PropTypes.element,
+    React.PropTypes.arrayOf(React.PropTypes.element)
+  ])
+};
 
-What’s interesting about this pattern is that the component is dumb and only serves as a wrapper of css definitions mapped to the parent component. There is one advantage of doing this:
 
-_It lets us define a base UI api which you can swap at will and make sure that all UI remains consistent throughout the application._
+export default Button;
 
-This way we can fully isolate the design process from the implementation process, making it possible to trigger them in parallel if wanted; you can have 1 developer focusing on the implementation of the feature and another polishing the UI achieving full separation of concerns.
+```
 
-Sounds like a great solution so far, internally we had discussions around it and thought it was a good idea to follow this pattern. Together with this pattern we started identifying other useful patterns as well:
 
-#### **Prop receivers**
+如你所见，这里没什么奇特的，只是一个接受属性并将属性映射到子组件上的组件， 换句话说这个组件将所有属性传递给子组件
 
-These do the function of listening to props passed to any component, thus making it easy to use these functions in any component you want, making it the holy grail for reusability and extending the capabilities of any given component, you can think of it as a way of inheriting modifiers, an example of what I mean by this:
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+这样你的组件就能像下面一样使用
 
-Example of how to use prop receivers
+```javascript
+import React from "react"
+import Button from "components/core/button"
 
-This way you are sure that you won’t need to hardcode all the borders again for each specific component 🏆, saving you tons of time.
+const = Component = () => <Button theme={ Button.theme.secondary }>Some Button</Button>
 
-#### Placeholder / Mixin like functionality
+export default Component
+```
 
-In styled components you can use the full power of JS to be able to create functions not just as prop receivers but also as a way of sharing code between different components, here is an example:
+我们再来看一个全部使用styled-components实现的相似的例子：
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+
+```javascript
+import styled from "styled-components";
+
+import {
+  theme
+} from "ui";
+
+const { color, font, radius, transition } = theme;
+
+export const Button = styled.button`
+  background-color: ${color.ghost};
+  border: none;
+  appearance: none;
+  user-select: none;
+  border-radius: ${radius};
+  color: ${color.base}
+  cursor: pointer;
+  display: inline-block;
+  font-family: inherit;
+  font-size: ${font.base};
+  font-weight: bold;
+  outline: none;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  transition:
+    transorm ${transition},
+    opacity ${transition};
+  white-space: nowrap;
+  width: ${props => props.width ? props.width : "auto"};
+  &:hover,
+  &:focus {
+    outline: none;
+  }
+  &:hover {
+    color: ${color.silver};
+    opacity: 0.8;
+    border-bottom: 3px solid rgba(0,0,0,0.2);
+  }
+  &:active {
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+    transform: translateY(2px);
+    opacity: 0.95;
+  }
+  ${props => props.disabled && `
+    background-color: ${color.ghost};
+    opacity: ${0.4};
+    pointer-events: none;
+    cursor: not-allowed;
+  `}
+  ${props => props.primary && `
+    background-color: ${color.primary};
+    color: ${color.white};
+    border-color: ${color.primary};
+    &:hover,
+    &:active {
+      background-color: ${color.primary}; 
+      color: ${color.white};
+    }
+  `}
+  ${props => props.secondary && `
+    background-color: ${color.secondary};
+    color: ${color.white};
+    border-color: ${color.secondary};
+    &:hover,
+    &:active {
+      background-color: ${color.secondary}; 
+      color: ${color.white};
+    }
+  `}
+`;
+```
+
+这个模式有趣的是，组件看起来非常呆板（译者：不具备任何逻辑），它是一个把css映射到父组件上的css包装器。这样做有一个优点:
+
+*它允许我们定义一个基础的 UI api，您可以随意进行交换，并确保所有UI在整个应用程序中保持一致。（译者：达到一改全改的目的）*
+
+这样我们就可以将设计过程与实现过程完全隔离开，使得二者并行开发成为可能; 您可以让1位开发人员专注于实施该功能，其他人专注于UI实现，从而实现逻辑/UI完全分离开发的想法。
+
+目前听起来像是一个很好的解决方案，在内部我们已经讨论过，认为遵循这种模式是一个好主意。 连同这种模式，我们也论证其他有用的模式：
+
+
+#### **属性接收器**
+
+
+这个函数就是监听任意组件接受的到的属性，从而使您可以轻松地在任何所需的组件中使用这些函数，使其成为可重用性的圣杯，并扩展任何给定组件的功能，您可以将其视为继承修饰（译者：更像聚合），我用这个例子解释：
+
+```javascript
+// Prop passing Shorthands for Styled-components
+export const borderProps = props => css`
+  ${props.borderBottom && `border-bottom: ${props.borderWidth || "1px"} solid ${color.border}`};
+  ${props.borderTop && `border-top: ${props.borderWidth || "1px"} solid ${color.border}`};
+  ${props.borderLeft && `border-left: ${props.borderWidth || "1px"} solid ${color.border}`};
+  ${props.borderRight && `border-right: ${props.borderWidth || "1px"} solid ${color.border}`};
+`;
+
+export const marginProps = props => css`
+  ${props.marginBottom && `margin-bottom: ${typeof (props.marginBottom) === "string" ? props.marginBottom : "1em"}`};
+  ${props.marginTop && `margin-top: ${typeof (props.marginTop) === "string" ? props.marginTop : "1em"}`};
+  ${props.marginLeft && `margin-left: ${typeof (props.marginLeft) === "string" ? props.marginLeft : "1em"}`};
+  ${props.marginRight && `margin-right: ${typeof (props.marginRight) === "string" ? props.marginRight : "1em"}`};
+  ${props.margin && `margin: ${typeof (props.margin) === "string" ? props.margin : "1em"}`};
+  ${props.marginVertical && `
+    margin-top: ${typeof (props.marginVertical) === "string" ? props.marginVertical : "1em"}
+    margin-bottom: ${typeof (props.marginVertical) === "string" ? props.marginVertical : "1em"}
+  `};
+  ${props.marginHorizontal && `
+    margin-left: ${typeof (props.marginHorizontal) === "string" ? props.marginHorizontal : "1em"}
+    margin-right: ${typeof (props.marginHorizontal) === "string" ? props.marginHorizontal : "1em"}
+  `};
+`;
+// An example of how you can use it with your components
+
+const SomeDiv = styled.div`
+  ${borderProps}
+  ${marginProps}
+`
+
+// This lets you pass all borderProps to the component like so:
+
+<SomeDiv borderTop borderBottom borderLeft borderRight marginVertical>
+```
+
+
+如何使用 prop receivers的例子
+
+
+这个方法肯定可以让你不用为每一个组件都硬编码所有的border，从而节约大量时间
+
+#### 占位 / 函数性质混入
+
+在样式化的组件中，您可以使用JS的全部功能来创建函数，不仅可以作为样式接收器，还能在不同组件之间共享代码，这里是一个示例：
+
+```javascript
+// Mixin like functionality
+
+const textInput = props => `
+  color: ${props.error ? color.white : color.base};
+  background-color: ${props.error ? color.alert : color.white};
+`;
+
+export const Input = styled.input`
+  ${textInput}
+`;
+
+export const Textarea = styled.textarea`
+  ${textInput};
+  height: ${props => props.height ? props.height : '130px'}
+  resize: none;
+  overflow: auto;
+`;
+```
 
 #### Layout Components
 
