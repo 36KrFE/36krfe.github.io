@@ -1,3 +1,23 @@
+自从有互联网以来，我们就需要给我们的网站设计样式，而CSS也一直存在并以自己的速度发展起来，这篇文章将会让您了解它。
+
+首先,在什么是CSS上我们需要有相同的认识，我认为我们都同意CSS是一种用于描述用[标记语言](https://en.wikipedia.org/wiki/Markup_language "Markup language")编写的文档的[演示文稿](https://en.wikipedia.org/wiki/Presentation_semantics "Presentation semantics")。
+
+众所周知，虽然CSS变得越来越强大已，但是要想CSS为我们的项目服务仍需要我们使用额外的工具。
+
+### CSS的西部蛮荒时期
+
+在90年代，我们专注于创造“花式”界面，网页令人拍案叫绝是最重要的事情， 内联风格的样式就是在这个时候, 我们并不care网页是不是看起来很怪异，并会扔一些gifs，marquess和其他“可怕的”（当时令人印象深刻的）元素进我们的网页，最终网页就会像一个可爱的玩具，只希望能吸引访客的注意力。
+
+![](http://p0.qhimg.com/t0136ab3bd2107bcd0d.png)
+
+在那之后，我们开始创建动态网站， 但是CSS还是一如既往的混乱，每个开发人员都有自己的编写CSS的方式。 我们中的一些人在**特征**挣扎, 当我们引入新代码时会导致页面的混乱， 我们不得不依靠我们强大的如顽石般的意志力用 **!important** 让我们的页面看起来正常一点。 但是我们很快意识到：
+
+![](http://p0.qhimg.com/t019e6fb41afe19a33f.jpg)
+
+All those practices became more evident and bigger problems as soon as projects grew in size, complexity, and team members. So not having a **consistent pattern** to do styling became one of the biggest _blockers_ for experienced and inexperienced developers who struggled to find a right way to do things in CSS. In the end there was no right or wrong thing to do, we just cared to make the thing look ok.
+
+![](http://p0.qhimg.com/t010362752b0c3095e2.gif)
+
 ### **SASS来解救**
 
 SASS将CSS转换为一种得体的编程语言，以预处理引擎的形式，使**嵌套，变量，混合，扩展**和**逻辑**在样式表中得以实现，因此您可以更好地组织您的css文件，而且至少有了一些把css块解构成更小的文件的方法，这当然是一件很棒的事情。
