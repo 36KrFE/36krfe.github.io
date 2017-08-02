@@ -1,20 +1,21 @@
+![](https://cdn-images-1.medium.com/max/2000/1*yBxZo9LNEjRaL7eKUBqRSA.png)
 自从有互联网以来，我们就需要给我们的网站设计样式，而CSS也一直存在并以自己的速度发展起来，这篇文章将会让您了解它。
 
-首先,在什么是CSS上我们需要有相同的认识，我认为我们都同意CSS是一种用于描述用[标记语言](https://en.wikipedia.org/wiki/Markup_language "Markup language")编写的文档的[演示文稿](https://en.wikipedia.org/wiki/Presentation_semantics "Presentation semantics")。
+首先,在什么是CSS上我们需要有相同的认识，我认为我们都同意CSS是一种用于描述用[标记语言](https://en.wikipedia.org/wiki/Markup_language "Markup language")编写文档的[演示文稿](https://en.wikipedia.org/wiki/Presentation_semantics "Presentation semantics")。
 
-众所周知，虽然CSS变得越来越强大已，但是要想CSS为我们的项目服务仍需要我们使用额外的工具。
+众所周知，虽然CSS早已沿途发展的越来越强大，但是要想CSS为我们的项目服务仍需要我们使用额外的工具。
 
 ### CSS的西部蛮荒时期
 
-在90年代，我们专注于创造“花式”界面，网页令人拍案叫绝是最重要的事情， 内联风格的样式就是在这个时候, 我们并不care网页是不是看起来很怪异，并会扔一些gifs，marquess和其他“可怕的”（当时令人印象深刻的）元素进我们的网页，最终网页就会像一个可爱的玩具，只希望能吸引访客的注意力。
+在90年代，我们专注于创造“花式”界面，网页令人拍案叫绝是最重要的事情， 内联风格的样式就在这时兴起, 我们并不care网页是不是看起来很怪异，并会扔一些gifs，marquess和其他“可怕的”（当时令人印象深刻的）元素进我们的网页，最终网页就会像一个可爱的玩具，只希望能吸引访客的注意力。
 
-![](http://p0.qhimg.com/t0136ab3bd2107bcd0d.png)
+![](https://pbs.twimg.com/media/BICSfzSCMAAyi5X.png)
 
 在那之后，我们开始创建动态网站， 但是CSS还是一如既往的混乱，每个开发人员都有自己的编写CSS的方式。 我们中的一些人在**特征**挣扎, 当我们引入新代码时会导致页面的混乱， 我们不得不依靠我们强大的如顽石般的意志力用 **!important** 让我们的页面看起来正常一点。 但是我们很快意识到：
 
 ![](http://p0.qhimg.com/t019e6fb41afe19a33f.jpg)
 
-All those practices became more evident and bigger problems as soon as projects grew in size, complexity, and team members. So not having a **consistent pattern** to do styling became one of the biggest _blockers_ for experienced and inexperienced developers who struggled to find a right way to do things in CSS. In the end there was no right or wrong thing to do, we just cared to make the thing look ok.
+一旦项目规模、复杂程度和团队成员日益增加，所有这些做法就变成更大更显著的难题。 所以没有一个**一致的模式**书写样式成为有经验和没有经验的开发人员最大的_绊脚石_之一，他们努力寻找一种书写CSS的正确方法。 最后没有对错之分，我们只是关心让样式看起来OK。
 
 ![](http://p0.qhimg.com/t010362752b0c3095e2.gif)
 
@@ -32,7 +33,7 @@ SASS将CSS转换为一种得体的编程语言，以预处理引擎的形式，�
 
 当BEM来临之际，这是一股新鲜空气，让我们更多地思考可重用性和组件化。 它基本上将语义化提升到一个新的水平，通过使用简单的模块+元素+修饰符的命名规范，使我们确保className是唯一的，从而减少特异性冲突的风险。 看下面的例子：
 
-```
+```html
 <body class="scenery">
   <section class="scenery__sky">
     <div class="sky [sky--dusk / sky--daytime] [sky--foggy]">
@@ -51,7 +52,7 @@ SASS将CSS转换为一种得体的编程语言，以预处理引擎的形式，�
 
 我们来看一下相关的css代码，这样可以让我们更好的分析它：
 
-```
+```css
 // Block
 .scenery {
    //Elements
@@ -120,7 +121,7 @@ BEM在您确保组件的唯一性和可重用性方面是很有意义的。通�
 
 *   标记的语义化变得不再必要
 
-### CSS Modules 和本地作用域
+### CSS Modules 和 local 作用域
 
 SASS或BEM都没有解决的问题是在语言逻辑中没有真正封装的概念，因此依靠开发人员选择唯一的class名。感觉可以通过工具而不是通过约定来解决这个问题。
 
@@ -134,8 +135,7 @@ CSS-Modules 在 React 生态系统中迅速获得普及，现在许多 react 项
 
 现在本地的CSS看起来是这样的:
 
-```
-
+```css
 @import '~tools/theme';
 
 :local(.root) {
@@ -200,13 +200,26 @@ CSS-Modules 在 React 生态系统中迅速获得普及，现在许多 react 项
 
 这就是 Local CSS Modules 背后的简单规则。Local CSS Modules 通过生成一个唯一的className来自动化BEM符号的方式，确保它不会与他人冲突，即使他们使用相同的名称。这很方便！
 
-### Styled Components to blend css in JS (fully)
+### 在JS中混合CSS的Styled Components（完全）
 
 Styled-components are pure visual primitives that act as a wrapping component; they can be mapped to actual html tags and what they do is wrap the children components with the styled-component.
 
 This following code will explain it better:
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+```javascript
+import React from "react"
+import styled from "styled-components"
+// Simple form component
+
+const Input = styled.input`
+  background: green
+`
+
+const FormWrapper = () => <Input placeholder="hola" />
+
+// What this compiles to:
+<input placeholder="hola" class="dxLjPX">Send</input>
+```
 
 If you see the styled component is very simple to understand, it uses the template literal notation to define css properties, it seems that the core styled-components team nailed it this time as it blends the full power of ES6 and CSS.
 
@@ -214,7 +227,20 @@ Styled-components provides a very simple pattern to reuse and fully separate UI 
 
 This is how you pass custom props (or modifiers) to a Styled Component:
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+```javascript
+import styled from "styled-components"
+
+const Sky = styled.section`
+  ${props => props.dusk && 'background-color: dusk' }
+  ${props => props.day && 'background-color: white' }
+  ${props => props.night && 'background-color: black' }
+`;
+
+// You can use it like so:
+<Sky dusk />
+<Sky day />
+<Sky night />
+```
 
 You can see that the props suddenly become the modifiers that each of the components receive and they can be processed to output different lines of css, neat right?
 
@@ -250,9 +276,7 @@ Button.defaultProps = {
   tag: "button"
 };
 
-Button.displayName = Button.name 
-
-;
+Button.displayName = Button.name;
 
 Button.propTypes = {
   theme: React.PropTypes.string,
@@ -447,7 +471,91 @@ We’ve detected that one of the first things we need to do when working in an a
 
 These components have proven to be very useful as often some developers (not familiar enough with css positioning techniques) have a hard time setting the structure, here is an example of such components:
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+```javascript
+import styled from "styled-components";
+import {
+  theme,
+  borderProps,
+  sizeProps,
+  backgroundColorProps,
+  marginProps
+} from "ui";
+
+const { color, font, topbar, gutter } = theme;
+
+export const Panel = styled.article`
+  ${marginProps}
+  padding: 1em;
+  background: white;
+  color: ${color.black};
+  font-size: ${font.base};
+  font-weight: 300;
+  ${props => !props.noborder && `border: 1px solid ${color.border}`};
+  width: ${props => props.width ? props.width : "100%"};
+  ${props => borderProps(props)}
+  transition: 
+    transform 300ms ease-in-out,
+    box-shadow 300ms ease-in-out,
+    margin 300ms ease-in-out;
+  box-shadow: 0 3px 3px rgba(0,0,0,0.1);
+  ${props => props.dark && `
+    color: ${color.white};
+    background-color: ${color.black};
+  `}
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 3px rgba(0,0,0,0.1);
+  }
+`;
+
+export const ScrollView = styled.section`
+  overflow: hidden;
+  font-family: ${font.family};
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  ${props => props.horizontal && `
+    white-space: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    `
+  }
+  ${props => sizeProps(props)}
+`;
+
+export const MainContent = styled(ScrollView)`
+  position: absolute;
+  top: ${props => props.topbar ? topbar.height : 0};
+  right: 0;
+  left: 0;
+  bottom: 0;
+  font-size: ${font.base};
+  padding: ${gutter} 3em;
+  ${props => props.bg && `
+    background-color: ${props.bg};
+  `}
+`;
+
+export const Slide = styled.section`
+  ${backgroundColorProps}
+  font-weight: 400;
+  flex: 1;
+  height: ${props => props.height ? props.height : "100%"};
+  width: ${props => props.width ? props.width : "100%"};
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: 3em;
+  color: ${color.white};
+`;
+
+export const App = styled.div`
+  *, & {
+    box-sizing: border-box;
+  }
+`;
+```
 
 If you can see we have the  component which takes a width and a height as props and also receives the horizontal prop so the scrollbar appears below.
 
@@ -457,13 +565,186 @@ Helper components make our life easier and allow us to reuse heavily. This is th
 
 These are some of the helpers I’ve found quite useful so far:
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+```javascript
+import styled, { css } from "styled-components";
+
+import {
+  borderProps,
+  marginProps,
+  backgroundColorProps,
+  paddingProps,
+  alignmentProps,
+  positioningProps,
+  sizeProps,
+  spacingProps,
+  theme
+} from "ui";
+
+const { screenSizes } = theme;
+
+export const overlay = `
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0,0,0,0.5);  
+`;
+
+// You can use this like ${media.phone`width: 100%`}
+
+export const media = Object.keys(screenSizes).reduce((accumulator, label) => {
+  const acc = accumulator;
+  acc[label] = (...args) => css`
+    @media (max-width: ${screenSizes[label]}em) {
+      ${css(...args)}
+    }
+  `;
+  return acc;
+}, {});
+
+// Spacing
+
+export const Padder = styled.section`
+  padding: ${props => props.amount ? props.amount : "2em"};
+`;
+
+export const Spacer = styled.div`
+  ${spacingProps}
+`;
+
+// Alignment
+
+export const Center = styled.div`
+  ${borderProps}
+  ${marginProps}
+  ${backgroundColorProps}
+  ${paddingProps}
+  ${alignmentProps}
+  ${positioningProps}
+  ${sizeProps}
+  text-align: center;
+  margin: 0 auto;
+`;
+
+// Positioning
+
+export const Relative = styled.div`
+  ${props => borderProps(props)};
+  position: relative;
+`;
+
+export const Absolute = styled.div`
+  ${props => marginProps(props)};
+  ${props => alignmentProps(props)};
+  ${props => borderProps(props)};
+  position: absolute;
+  ${props => props.right && `right: ${props.padded ? "1em" : "0"}; `}
+  ${props => props.left && `left: ${props.padded ? "1em" : "0"}`};
+  ${props => props.top && `top: ${props.padded ? "1em" : "0"}`};
+  ${props => props.bottom && `bottom: ${props.padded ? "1em" : "0"}`};
+`;
+
+// Patterns
+export const Collapsable = styled.section`
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  ${props => props.animate && `
+    transition: 
+      transform 300ms linear,
+      opacity 300ms ease-in,
+      width 200ms ease-in,
+      max-height 200ms ease-in 200ms;
+    max-height: 9999px;
+    transform: scale(1);
+    transform-origin: 100% 100%;
+    ${props.collapsed && `
+      transform: scale(0);
+      transition: 
+        transform 300ms ease-out,
+        opacity 300ms ease-out,
+        width 300ms ease-out 600ms;
+    `}
+  `}
+  ${props => props.collapsed && `
+    opacity: 0;
+    max-height: 0;
+  `}
+`;
+
+export const Ellipsis = styled.div`
+  max-width: ${props => props.maxWidth ? props.maxWidth : "100%"};
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+`;
+
+export const Circle = styled.span`
+  ${backgroundColorProps}
+  display: inline-block;
+  border-radius: 50%;
+  padding: ${props => props.padding || '10px'};
+`;
+
+export const Hidden = styled.div`
+  display: none;
+`;
+```
 
 #### Theme
 
 Having a theme lets you have 1 source of truth of values that can be reused throughout the application, it’s been proven useful for storing values that are commonly reused in the application like color palette and general look and feel.
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+```javascript
+export const theme = {
+  color: {
+    primary: "#47C51D",
+    secondary: '#53C1DE',
+    white: "#FFF",
+    black: "#222",
+    border: "rgba(0,0,0,0.1)",
+    base: "rgba(0,0,0,0.4)",
+    alert: '#FF4258',
+    success: 'mediumseagreen',
+    info: '#4C98E6',
+    link: '#41bbe1'
+  },
+  icon: {
+    color: "gray",
+    size: "15px"
+  },
+  font: {
+    family: `
+    -apple-system,
+    BlinkMacSystemFont,
+    'Segoe UI',
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    'Apple Color Emoji',
+    'Segoe UI Emoji',
+    'Segoe UI Symbol'`,
+    base: '13px',
+    small: '11px',
+    xsmall: '9px',
+    large: '20px',
+    xlarge: '30px',
+    xxlarge: '50px',
+  },
+  headings: {
+    family: 'Helvetica Neue',
+  },
+  gutter: '2em',
+  transition: '300ms ease-in-out'
+};
+
+export default theme;
+```
 
 **Pros**
 
@@ -488,4 +769,3 @@ Having a theme lets you have 1 source of truth of values that can be reused thro
 Whatever technology you use whether it is SASS, BEM, CSS Modules or Styled Components there is no substitute for a well defined styling architecture that makes it intuitive for other developers to contribute to your code base without thinking too much, breaking or introducing new moving parts to the system.
 
 This approach is crucial to scale properly and can be achieved even if using plain CSS and BEM, the main difference is the amount of work and LOC needed for each implementation, overall styled-components feels like a great suit for pretty much all React projects, yet to test it in the wild but quite promising indeed.
-                
