@@ -1,60 +1,104 @@
-自从有互联网以来，我们就需要给我们的网站设计样式，而CSS也一直存在并以自己的速度发展起来，这篇文章将会让您了解它。
+### **SASS来解救**
 
-首先,在什么是CSS上我们需要有相同的认识，我认为我们都同意CSS是一种用于描述用[标记语言](https://en.wikipedia.org/wiki/Markup_language "Markup language")编写的文档的[演示文稿](https://en.wikipedia.org/wiki/Presentation_semantics "Presentation semantics")。
+SASS将CSS转换为一种得体的编程语言，以预处理引擎的形式，使**嵌套，变量，混合，扩展**和**逻辑**在样式表中得以实现，因此您可以更好地组织您的css文件，而且至少有了一些把css块解构成更小的文件的方法，这当然是一件很棒的事情。
 
-众所周知，虽然CSS变得越来越强大已，但是要想CSS为我们的项目服务仍需要我们使用额外的工具。
+它本质上采用sass代码，对其进行预处理，并以全局css打包的形式输出文件的编译版本。 很棒对吗？ 但是我不会这么说，过一会儿你就会很明显地发现，除非有策略性和最佳实践的使用，否则比起减少的麻烦，SASS只会造成更多问题。
 
-### CSS的西部蛮荒时期
+突然之间，我们不知道预处理器在暗地里做了什么，并且懒惰地依靠嵌套来解决特异性冲突，但是导致编译的样式表变得很大。
 
-在90年代，我们专注于创造“花式”界面，网页令人拍案叫绝是最重要的事情， 内联风格的样式就是在这个时候, 我们并不care网页是不是看起来很怪异，并会扔一些gifs，marquess和其他“可怕的”（当时令人印象深刻的）元素进我们的网页，最终网页就会像一个可爱的玩具，只希望能吸引访客的注意力。
+直到BEM来了...
 
-![](http://p0.qhimg.com/t0136ab3bd2107bcd0d.png)
+### BEM和组件化思考
 
-在那之后，我们开始创建动态网站， 但是CSS还是一如既往的混乱，每个开发人员都有自己的编写CSS的方式。 我们中的一些人在**特征**挣扎, 当我们引入新代码时会导致页面的混乱， 我们不得不依靠我们强大的如顽石般的意志力用 **!important** 让我们的页面看起来正常一点。 但是我们很快意识到：
+当BEM来临之际，这是一股新鲜空气，让我们更多地思考可重用性和组件化。 它基本上将语义化提升到一个新的水平，通过使用简单的模块+元素+修饰符的命名规范，使我们确保className是唯一的，从而减少特异性冲突的风险。 看下面的例子：
 
-![](http://p0.qhimg.com/t019e6fb41afe19a33f.jpg)
+```
+<body class="scenery">
+  <section class="scenery__sky">
+    <div class="sky [sky--dusk / sky--daytime] [sky--foggy]">
+      <div class="sky__clouds"></div>
+      <div class="sky__sun"></div>
+    </div>
+  </section>
+  <section class="scenery__ground"></section>
+  <section class="scenery__people"></section>
+</body>
+```
 
-All those practices became more evident and bigger problems as soon as projects grew in size, complexity, and team members. So not having a **consistent pattern** to do styling became one of the biggest _blockers_ for experienced and inexperienced developers who struggled to find a right way to do things in CSS. In the end there was no right or wrong thing to do, we just cared to make the thing look ok.
+如果您分析一下这些标记，您会立即看到BEM规范在这里的应用。
 
-![](http://p0.qhimg.com/t010362752b0c3095e2.gif)
+您可以看到我们在代码中有两个非常明确的模块：.scenery和.sky，它们中的每一个都有自己的块。 .sky是唯一具有修饰语的模块，因为它可能是foggy，daytime或dusk三种状态，这些状态是可以应用于同一元素的不同特征。
 
-### **SASS to the rescue**
+我们来看一下相关的css代码，这样可以让我们更好的分析它：
 
-SASS transformed CSS into a decent programming language in the form of a preprocessing engine that implemented **nesting, variables, mixins, extends** and **logic** into stylesheets, so you could better organize your css files and have at least some ways of deconstructing your css chunks in smaller files, which was a great thing back then.
+```
+// Block
+.scenery {
+   //Elements
+  &__sky {
+    fill: screen;
+  }
+  &__ground {
+    float: bottom; 
+  }
+  &__people {
+    float: center;
+  }
+}
 
-It essentially takes scss code, preprocesses it and outputs the compiled versions of the file in a global css bundle. Great right? but not so much I’d say, After a while it became apparent that unless there were strategies and best practices in place, SASS only caused more troubles than it alleviated.
+//Block
+.sky {
+  background: dusk;
+  
+  // Elements
+  
+  &__clouds {
+    type: distant;
+  }
+  
+  &__sun {
+    strength: .025;
+  }
+  
+  // Modifiers
+  &--dusk {
+    background: dusk;
+    .sky__clouds {
+      type: distant;
+    }
+    .sky__sun {
+      strength: .025;
+    }
+  }
+  
+  &--daytime {
+    background: daylight;
+    .sky__clouds {
+      type: fluffy;
+      float: center;
+    }
+    .sky__sun {
+      strength: .7;
+      align: center;
+      float: top;
+    }
+  }
+}
+```
 
-Suddenly we became unaware of what the preprocessor was doing under the hood and relied on lazily nesting to conquer the specificity battle but causing compiled stylesheets to go nuts in sizes.
+如果你想深入了解BEM是如何工作的，我推荐你 [看一下这篇文章](https://m.alphasights.com/bem-i-finally-understand-b0c74815d5b0#.9vdcmiugz) ，是由我的同事和朋友 Andrei Popa撰写的.
 
-Until BEM came along….
+BEM在您确保组件的唯一性和可重用性方面是很有意义的。通过这种思想，当我们开始将旧样式表移植到这个新的规范中时，以前一些明显的命名形式在移植后将会变得更加清晰明白。
 
-### BEM and component based thinking
+但是，另一些问题来了：
 
-When BEM came along it was a breath of fresh air that made us think more about reusability and components. It basically brought semanticity to a new level, it let us make sure that className is unique thus reducing the risk of specificity clash by using a simple Block Element Modifier convention. Look at the following example:
+*   类名选择成为了一个乏味的任务
 
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
+*   标记会因为带有这些长的类名而变得臃肿
 
-If you analyze a bit the markup you can see immediately the Block Element Modifier convention in play here.
+*   每当你想要重用时，你需要明确地扩展每个ui组件
 
-You can see that we have two very explicit blocks in the code: .scenery and .sky, each one of them have their own blocks. Sky is the only one that has modifiers as it could be foggy, daytime or dusk, those are different characteristics that could be applied to the same element.
-
-Let’s take a look at the companion css with some pseudo code that will let us analyze it better:
-
-![](http://p0.qhimg.com/t01622984a32b9bea15.jpg)
-
-If you want to have an in-depth understanding of how BEM works, I recommend you [take a look at this article](https://m.alphasights.com/bem-i-finally-understand-b0c74815d5b0#.9vdcmiugz) , written by my colleague and friend Andrei Popa.
-
-BEM is good in the sense that you made sure that components were unique #reusabilityFtw. With this kind of thinking some apparent patterns became more evident as we started migrating our old stylesheets into this new convention.
-
-But, another set of problems came along:
-
-*   Classname selection became a tedious task
-
-*   Markup became bloated with all those long class names
-
-*   You needed to explicitly extend every ui component whenever you wanted to reuse
-
-*   Markup became unnecessarily semantic
+*   标记的语义化变得不再必要
 
 ### CSS Modules 和本地作用域
 
