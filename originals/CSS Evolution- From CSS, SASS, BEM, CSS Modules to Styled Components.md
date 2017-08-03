@@ -202,9 +202,9 @@ CSS-Modules 在 React 生态系统中迅速获得普及，现在许多 react 项
 
 ### 在JS中混合CSS的Styled Components（完全）
 
-Styled-components are pure visual primitives that act as a wrapping component; they can be mapped to actual html tags and what they do is wrap the children components with the styled-component.
+Styled-components是用作包装组件的纯视觉原语；它们可以映射到实际的html标签，并且他们所做的是用styled-component来包装子组件。
 
-This following code will explain it better:
+下面的代码可以解释的更好：
 
 ```javascript
 import React from "react"
@@ -221,11 +221,11 @@ const FormWrapper = () => <Input placeholder="hola" />
 <input placeholder="hola" class="dxLjPX">Send</input>
 ```
 
-If you see the styled component is very simple to understand, it uses the template literal notation to define css properties, it seems that the core styled-components team nailed it this time as it blends the full power of ES6 and CSS.
+如您看到的，styled component非常简单易懂，它将使用模板文字符号来定义css属性，貌似styled-components核心团队才开发的它，因为它融合了ES6和CSS的全部功能。
 
-Styled-components provides a very simple pattern to reuse and fully separate UI from Functional and Stateful components. Creating an api that has access to native tags either in the browser as HTML or Natively using React Native.
+Styled-component提供了一种非常简单的模式——可重用，并将功能和状态组件完全分离。 创建一个可以在浏览器中访问，或者使用React Native访问的原生标签API。
 
-This is how you pass custom props (or modifiers) to a Styled Component:
+这是个您将自定义属性（或修饰符）传递给Styled Component的例子：
 
 ```javascript
 import styled from "styled-components"
@@ -242,11 +242,11 @@ const Sky = styled.section`
 <Sky night />
 ```
 
-You can see that the props suddenly become the modifiers that each of the components receive and they can be processed to output different lines of css, neat right?
+你可以看到props突然变成了每个组件接收到的修改器，并且它们可以被处理以输出不同的css代码，整齐吗？
 
-This allows us to move faster and use the full power of JS to process our styles while making sure they remain consistent and reusable.
+这使我们能够更快地迭代，并使用JS的全部功能处理我们的样式，同时确保它们保持一致和重用性。
 
-### Core UI for everyone to reuse
+### 每个人都能重用的核心UI组件
 
 很明显，CSS Modules和Styled Components本身不是完美的解决方案，它需要某种模式才能工作和扩展。这个模式就是定义一个分离了逻辑后只包含UI样式的核心组件
 使用CSS Modules实现的一个此类组件:
