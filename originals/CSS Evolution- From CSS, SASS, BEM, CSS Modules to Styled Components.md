@@ -465,11 +465,11 @@ export const Textarea = styled.textarea`
 `;
 ```
 
-#### Layout Components
+#### 布局组件
 
-We’ve detected that one of the first things we need to do when working in an application is layout our UI elements, for this purpose, we’ve identified some components that aid us in the process.
+我们发现，在应用程序中工作时需要做的第一件事是布局UI元素，为此，我们确定了一些帮助我们的组件。
 
-These components have proven to be very useful as often some developers (not familiar enough with css positioning techniques) have a hard time setting the structure, here is an example of such components:
+这些组件被证明是非常有用的，因为有些开发人员（对CSS定位技术不够熟悉）很难设置结构，这里是这类组件的一个例子：
 
 ```javascript
 import styled from "styled-components";
@@ -557,13 +557,13 @@ export const App = styled.div`
 `;
 ```
 
-If you can see we have the  component which takes a width and a height as props and also receives the horizontal prop so the scrollbar appears below.
+如果你能看到我们的组件, 它使用宽度和高度作为props, 也接收是否水平的prop使得滚动条出现在下方。
 
 #### Helper components
 
-Helper components make our life easier and allow us to reuse heavily. This is the place where we store all our common patterns.
+帮助器组件使我们的生活更轻松，并允许我们重复使用。在这我们组织所有的常见模式。
 
-These are some of the helpers I’ve found quite useful so far:
+这些是我迄今发现的非常有用的帮助器：
 
 ```javascript
 import styled, { css } from "styled-components";
@@ -695,9 +695,11 @@ export const Hidden = styled.div`
 `;
 ```
 
-#### Theme
+#### 主题
 
 Having a theme lets you have 1 source of truth of values that can be reused throughout the application, it’s been proven useful for storing values that are commonly reused in the application like color palette and general look and feel.
+
+有一个可以在整个应用程序中重复使用的主题让你有一个价值来源，它存储在应用程序最常被重用的值，这个功能被证明很有用，如同调色板和通用的观感。
 
 ```javascript
 export const theme = {
@@ -746,26 +748,26 @@ export const theme = {
 export default theme;
 ```
 
-**Pros**
+**优点**
 
-*   The full power of JS at our hands, meaning full communication with the component’s UI.
+*   JS的全部能力在我们手中，意味着与组件的UI完全通信。
 
-*   Eliminates the need of mapping components and styles through the use of a className (this is done under the hood)
+*   消除了通过用className映射组件和样式的需要 (底层帮你实现的)
 
-*   Great development experience so far, it reduces the amount of time spent thinking about classNames and mapping them to the component.
+*   目前来看超棒的开发体验, 它减少了思考classNames并将其映射到组件的时间。
 
-**Cons**
+**缺点**
 
-*   Yet to be tested in the wild
+*   未经过广泛测试
 
-*   Built for React
+*   只为React构建
 
-*   Super young
+*   超级年轻
 
-*   Testing needs to be done via aria-labels or using classNames
+*   测试需要通过动态标签或使用classNames来完成
 
 ### Conclusion
 
-Whatever technology you use whether it is SASS, BEM, CSS Modules or Styled Components there is no substitute for a well defined styling architecture that makes it intuitive for other developers to contribute to your code base without thinking too much, breaking or introducing new moving parts to the system.
+无论是SASS，BEM，CSS模块还是样式组件，无论使用什么技术，都不能替代一种定义好的样式架构，使其直观的为其他开发人员提供代码基础设施，而且不必考虑太多、打破或引入新的零件到系统。
 
-This approach is crucial to scale properly and can be achieved even if using plain CSS and BEM, the main difference is the amount of work and LOC needed for each implementation, overall styled-components feels like a great suit for pretty much all React projects, yet to test it in the wild but quite promising indeed.
+这种方案(样式组件)对于适当的扩展至关重要，即使用纯CSS和BEM也可以实现，主要的区别是每个实现方式所需的工作量和代码行数，总体而言，样式组件就像一个给几乎所有的React项目的伟大套装，尚未广泛测试，但确实相当有前途。
