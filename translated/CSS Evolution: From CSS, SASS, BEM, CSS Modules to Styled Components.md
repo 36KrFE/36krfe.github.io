@@ -1,4 +1,4 @@
-+![](https://cdn-images-1.medium.com/max/2000/1*yBxZo9LNEjRaL7eKUBqRSA.png)
+![](https://cdn-images-1.medium.com/max/2000/1*yBxZo9LNEjRaL7eKUBqRSA.png)
 Since the beginnings of the Internet we’ve always had the need to style our websites, CSS has been around forever and has evolved at its own pace over the years, this article will take you through it.
 
 To begin with we need to be on the same page of what CSS is, I think we can all agree that css is used for describing the [presentation](https://en.wikipedia.org/wiki/Presentation_semantics "Presentation semantics") of a document written in a [markup language](https://en.wikipedia.org/wiki/Markup_language "Markup language").
