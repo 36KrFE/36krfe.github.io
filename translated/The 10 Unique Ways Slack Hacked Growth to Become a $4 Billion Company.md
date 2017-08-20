@@ -79,37 +79,39 @@ _‘Slack 团队版’的价格策略. 图片来自 Slack.com_
 
 可以看出，免费版是**功能非常丰富**的，并且它不像其它很多产品需要你在试用的时候输入信息卡信息，用户只要**下载并开始使用它**就可以了。
 
-### **Minimal Features Hack**
+### **最小化功能**
 
-Since the beginning, Slack didn’t focus on too many features, and they just wanted to be the best in what they were building with one or two main benefits.
+在刚开始时, Slack 没有关注太多功能，他们只是想构建一个或两个主要的优点，并把它们做到最好。
 
-If you are a part of any channel/group on Slack, you want to know **what’s happening within the team** and the **general status of things** immediately. You can **tag any of your colleague**s and direct your message to him/her, and for some reason, the notifications on a Slack create **a sense of urgency** which is harder to ignore as compared to incoming emails.
+如果你是任何一个频道/团队中的一员，你想知道**团队内部发生的事情**和**事情的大致状态**。
+。 你可以给你的任何同事**贴上标签**然后告诉他，出于某种原因，Slack 的通知给人造成了**一种紧迫感**，相对于邮件的提醒，这是难以忽视的。
 
-### **Word of Mouth Marketing Hacks**
+### **口碑营销**
 
-While it is easy to be lost in the maze of online marketing technologies, it is interesting that Slack has proven the fact that word of mouth marketing still works. People still believe something that other people (such as their friends or colleagues) tell them.
+虽然很容易迷失在网络营销技术的迷宫中，但有趣的是，Slack 证明了口碑营销仍然有效的事实。人们仍然相信别人（比如他们的朋友或同事）告诉他们的事情。
 
-Butterfield himself used to share a lot of articles and news about Slack on social media channels as well as with his immediate friend so as to know what they think. Some of his friends were entrepreneurs, and hence startups started trying out Slack, and word of mouth helped Slack. As a result, the number of startups using Slack started growing immediately. Many influential companies started using Slack and spreading the word about it and this boosted others to try Slack.
+巴特菲尔德本人过去常常在社交媒体频道和他的直接朋友之间分享大量关于 Slack 的文章和新闻，以便了解他们的想法。
+他的一些朋友是企业家，创业开始的时尝试使用 Slack，并且通过口头传播帮助 Slack。 因此，使用 Slack 的初创公司的数量立即开始增长。许多有影响力的公司开始使用 Slack 并且口头传播，这促进了他人尝试使用 Slack。
 
-This tweet was by Slack investor Marc Andreessen on August 2014 about the Slack’s word of mouth growth.
+这条推文是由 Slack 的投资人马克·安德森在2014年8月所发，展示了 Slack 口碑营销的增长曲线。
 
 ![](http://p0.qhimg.com/t019c4b957277d5f360.jpg)
 
-_Slack user growth chart by Marc Andreessen via Twitter_
+_Slack 用户增长图表 by 马克·安德森 via 推特_
 
-**_Source_**_:_ [_Quartz_](https://qz.com/249222/slacks-explosive-word-of-mouth-growth-in-one-amazing-chart/)
+**_来源_**_:_ [_Quartz_](https://qz.com/249222/slacks-explosive-word-of-mouth-growth-in-one-amazing-chart/)
 
-### **User Feedback Hack**
+### **用户反馈**
 
-Slack gave importance to pull marketing rather than a push marketing strategy. It started becoming too serious about its early customer comments, feedbacks and hence did a lot of A/B testing, focus group surveys, and this helped Slack to build what people wanted.
+Slack 重视拉动营销而不是推动营销策略。 它非常重视早起的客户评论和反馈，因此做了大量的 A/B 测试，聚焦小组调查，这有助于 Slack 去做人们所需要的。
 
-Slack is one company that carefully listens to what their customers are saying about their product, making active listening the core competency, they try to solve every problem their customers encounter, and this process is in place even now.
+积极倾听是 Slack 的核心竞争力，认真倾听顾客对他们产品的看法，试图解决客户遇到的每一个问题，而且非常到位。
 
-### **Twitter Hack**
+### **推特**
 
-Twitter is one social network Slack is heavily dependent on to interact with its customers and fans. You can see that by the incredible number of tweets and replies by Slack. Slack in its early stage as a startup knew the importance of customer engagement and brilliantly started using Twitter as one of their social channels other than YouTube to share stories of people and companies using Slack.
+Slack 与客户和粉丝的互动很大程度上依赖于推特。你可以通过 Slack 在推特上的回复数量看出这一点。 在创立公司的初期阶段，Slack 就知道客户参与的重要性，并且聪明的把推特作为 YouTube 以外的社交渠道，来分享使用 Slack 的用户和公司的故事。
 
-Joined on March 2013, Slack interacts with its audience in numerous ways. Slack has an incredible follower base of 297k with 147k total tweets as of now (at the time when this article was being written). Slack always has believed in the word of mouth marketing, but it 2015 it took it up a notch when it created another twitter account for showcasing tweets from the people who like and tweet to Slack showing their appreciation for the service. It created a huge buzz and benefitted Slack for sure.
+从2013年3月加入后，Slack 以多种方式与用户互动。 截止到目前（写这篇文章时），Slack 拥有147K的推文和297K的关注人数。 Slack总是相信口碑营销，在2015年，它创建了另一个推特帐户，展示了喜欢 Slack 并发消息给Slack表示感谢的人们的推特，这个帐户占据了一席之地。可以肯定的是，这引起了了巨大的热议，Slack 并从中获益。
 
 ### **Referral Loop Hack**
 
