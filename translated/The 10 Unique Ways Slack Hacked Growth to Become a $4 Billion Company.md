@@ -38,45 +38,46 @@ Also, as mentioned in a Quora discussion about [the importance of personal brand
 
 _“Look at_ [_Stewart Butterfield_](https://www.quora.com/profile/Stewart-Butterfield) _from Slack for a good example as to how to do it right. I’ve rarely seen of a founder’s personal brand shining through like his honesty and candor. He swears, he has bombast but has not changed who he is or how he looks.” — Ed Zitron_
 
-### **Perfect Timing Hack**
+### **最佳时机**
 
-The **increase in our dependence on the internet** for work and everything else meant the number of emails being sent and received to make sense of the growing load of work increased big time. And of course it didn’t help make sense of the work but rather increased our ‘**inbox-phobias**’.
+随着人们在工作和其它事情上对互联网的依赖越来越重，发送和处理邮件消耗了越来越多的时间。然而，这对我们的工作来说并没有特别大的意义，反而让我们得了**收件箱恐惧症**
 
 ![](http://p0.qhimg.com/t018c24237dd86e5901.png)
 
-_An example of how email inboxes of many of us look like._
+_我们大部分人的收件箱看起来可能是上面这样的_
 
-Slack found a **perfect opportunity** for helping people reduce their email load and/or to find a better medium to communicate and manage projects instead of email. Their timing for pitching an alternative to email, which is quick, reliable and useful was perfect, and Slack entered the market at **the most optimal time**. When you enter the market with a reliable product while others are lagging, you will lead, and you will have a **first mover advantage**.
+Slack找到了一个**非常棒的机会**，它可以帮助人们减轻处理邮件的负担，或者找到一种比邮件更好的沟通方式或者做项目管理的方式。这个为电子邮件寻找一个快速、可靠并且有用的替代者的时机非常完美，Slack可以说是在**最佳时机**进入了这个市场。当你领先其它对手，并且带着可靠的产品进入这样一个市场，你将会领先，并且获取**先发优势**。
 
-_It is also safe to say that Slack wasn’t built to replace any project management platforms like TeamWork, Asana or Trello since it offers integrations with many of them (no integration for TeamWork as yet). This is a smart way to ensure that these other apps don’t see Slack as a competitor but rather an ‘enabler’. If Slack wasn’t built this way, then the timing to enter the market wouldn’t have been right, but then again, in that case it would have been a very different product than what it is right now._
+_也可以这么说，Slack没有想要去顶替市场上已经有的项目管理工具，如Teamwork，Asana或Trello，而是提供了集成大量类似的项目管理工具的方式（目前还没有集成Teamwork）。这是一种很聪明的做法，这样其它的工具厂商不会认为Slack是一个竞争对手，而是更像一个'推动者'。如果Slack不是以这种方式出现，那么它进入市场的时机就不是那么好了，不过换句话讲，如果是那样的话，它的产品形态跟它现在的样子也会有很大的不同。_
 
-### **The UI/UX Hack**
+### **设计和体验**
 
-Slack has been pretty focused on ensuring that the look and feel of its website and apps ensure **smooth communication** between team members. Their primary motive has been to make the product so intuitive that their users can use it without any guide or a product tutorial. If you haven’t used Slack already; do give it a try. You will realize that you don’t need a detailed manual to **start using it like a pro**.
+Slack一直非常专注于确保其网站和客户端的外观和感觉能够让它的用户之间的**沟通顺畅**。他们的主要动机是使产品足够直观，使用户无需任何指南或产品教程即可使用它。如果你还没有用过Slack，你可以试用一下，你会发现你不需要一个详细的使用手册，就可以像一个专家一样使用它了。
 
-**_How did this happen?_**
+**_如何做到这点？_**
 
-Stewart Butterfield hired a design agency **MetaLab** run by Andrew Wilkinson. Andrew wrote a story on Slack’s design principles (or should we say obsession), and you can read it here [Slack’s secret sauce](https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908).
+Stewart Butterfield聘请了Andrew Wilkinson经营的设计公司MetaLab。Andrew写了一篇文章介绍Slack设计原则（或者我们应该说设计信仰），你可以在这里阅读[Slack’s secret sauce](https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908).
+
 
 ![](http://p0.qhimg.com/t012a354d1143d19296.png)
 
-_Some early design iterations created by MetaLab for Slack. Image via MetaLab._
+_MetaLab为Slack设计的一些早期迭代版本。图片来自MetaLab。_
 
-### **Freemium Model Hack**
+### **免费模式**
 
-Pricing is, no doubt, one of the most critical aspects of a SAAS organization, and thanks to today’s technology, it is easier (and more economical) to offer a free trial or any other free features to get the attention of your targeted audience.
+价格对于SAAS公司来说毫无疑问是最关键的，感谢现在的技术，提供试用或一些免费的功能给用户以吸引他们的注意力变得非常容易。
 
-Many customers buying things online can be risk-averse, and they want to test your product to see if this suits their requirements before actually considering to start paying for it.
+对于很多人来说，在线购买变得风险很低，他们也想在真正付款前看看你的产品的功能是不是真的能满足他们的需求。
 
-Slack’s freemium model makes it super-easy and ideal for people to try without any initial payments. Their pricing policy is simple and straight.
+Slack的免费模式让它能够非常简易且恰当的让用户不用支付任何钱来试用它的功能。它的价格策略非常的简单直接。
 
 ![](http://p0.qhimg.com/t01a2b52b7650810e22.png)
 
 ![](http://p0.qhimg.com/t01fc742f8dd15c4e84.png)
 
-_Price Packages of ‘Slack for Teams’. Image via Slack.com_
+_‘Slack 团队版’的价格策略. 图片来自 Slack.com_
 
-As you can see, the free plan is **pretty feature-rich** and, unlike some apps which need you to enter your credit card details even if you are using the free/trial version, one just has to **download Slack and get going with it**!
+可以看出，免费版是**功能非常丰富**的，并且它不像其它很多产品需要你在试用的时候输入信息卡信息，用户只要**下载并开始使用它**就可以了。
 
 ### **Minimal Features Hack**
 
