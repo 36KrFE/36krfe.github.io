@@ -58,7 +58,6 @@ Slack一直非常专注于确保其网站和客户端的外观和感觉能够让
 
 Stewart Butterfield聘请了Andrew Wilkinson经营的设计公司MetaLab。Andrew写了一篇文章介绍Slack设计原则（或者我们应该说设计信仰），你可以在这里阅读[Slack’s secret sauce](https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908).
 
-
 ![](http://p0.qhimg.com/t012a354d1143d19296.png)
 
 _MetaLab为Slack设计的一些早期迭代版本。图片来源：MetaLab。_
