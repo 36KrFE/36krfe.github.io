@@ -113,36 +113,39 @@ Slack 与客户和粉丝的互动很大程度上依赖于推特。你可以通�
 
 ### **Referral Loop Hack**
 
-One thing that differentiates Slack is its referral hack; anybody can create their community around their interest and invite people around the world. While, many other services give you this opportunity, But you need to follow a particular set of rules and regulations to create your community, and most of the times it will not be free. Slack has an advantage here, to build community for free and refer anyone without any harder rules to follow. Every company now is shifting from their home built communication channel to Slack because of it’s easy to invite and chat option.
+Slack 的一个差异在于他的 rferral hack；任何人都可以围绕自己的兴趣创建社区，并且邀请世界各地的人们。尽管许多其他的服务也会为你提供这样的机会，但是你必须遵守一套特定规则和条例，并且大多时候不是免费的。Slack 在这方面具有优势，免费建立社区，没有复杂的推荐规则，可以推荐给任何人。每一个正在从自建通讯渠道转移至 Slack 的公司，都是因为 Slack 的方便邀请和聊天方式而做出的决定。
 
 ![](http://p0.qhimg.com/t01ce9e5d6d2e521d61.png)
 
 _Different avatars, Image via Slack.com_
 
-As [mentioned in TNW](https://thenextweb.com/insider/2015/03/24/slack-is-quietly-unintentionally-killing-irc/#.tnw_oJAigD0o), not only does Slack has communities around different interests (such as startups, music, design) but communities based elsewhere are moving to Slack. For instance, [WordPress.org](http://wordpress.org/), the community behind WordPress’ open-source software, [abandoned its IRC channel and shifted to Slack](https://make.wordpress.org/chat/), citing that IRC is complicated and unfriendly. Easy referral process is one thing that has helped Slack to grow its user base.
+如 [TNW](https://thenextweb.com/insider/2015/03/24/slack-is-quietly-unintentionally-killing-irc/#.tnw_oJAigD0o) 所述，Slack 不仅拥有不同的兴趣社区（如创业，音乐，设计），并且其他地方的社区也正在向 Slack 转移。例如，[WordPress.org](http://wordpress.org/)，是 WordPress 的开源软件社区，[放弃了复杂不友好的 RIC 频道转移至 Slack](https://make.wordpress.org/chat/)。简单的传播方式是帮助 Slack 发展用户群的重要优势。
 
-### **Integrations Hack**
 
-If you have noticed one thing, Slack has this unique feature of easily integrating with any app, and in particular, with those apps that startups mostly use, and hence many startup companies find Slack a very useful tool they require to streamline their communication within the organization.
+### **集成技术**
 
-There are so many categories of apps you can integrate with Slack. Analytics, Sales, Customer service, Developer tools, HR, Marketing, Social Media, etc
+你是否注意到这样一件事，Slack 具有轻松集成至任何程序的独特功能，尤其是这些都是创业公司常用的应用，因此许多创业公司发现 Slack 正是一个他们需要的用于简化组织内部交流沟通的工具。
+
+有很多类别的应用程序都可以与 Slack 集成，分析、销售、客户服务，开发工具，人力资源，市场营销，社交媒体等。
 
 ![](http://p0.qhimg.com/t018f8837e213e8fc8d.png)
 
 _Slack App Directory, Image via Slack.com_
 
-Slack is also one of the most important tools to do DevOps (a software development practice) since it can be integrated well with any developer tool and it helps increase the organization’s productivity through collaboration.
+由于 Slack 可以很好的与任何开发工具集成，通过协作提高组织生产力等原因，使 Slack 成为实现 DevOps（DevOps是软件开发、运维和质量保证三个部门之间的沟通、协作和集成所采用的流程、方法和体系的一个集合）流程的重要工具之一。
 
-App integrations can become one of the best growth hacking strategy for companies when carried out properly. **_For example_**, you can integrate Slack with Asana, an application designed to help teams track their work and with this integration, you can quickly receive updates in Slack when a task is created, completed, or commented and this helps you can easily track the progress of any project in your organization.
+在正确执行的情况下，应用程序集成可以成为公司的最佳增长黑客策略之一。**_例如_**，你可以将 Slack 与 Asana 进行集成，Asana 是一个旨在帮助团队跟踪工作的应用程序，通过集成，你可以在 Slack 中迅速收到任务创建、完成或者评论的通知，有助于轻松跟踪组织内任何项目的进度。
 
-These videos will give you an idea on how some successful companies are using Slack and growing their business through collaboration
+这些视频将让你了解一些成功公司如何使用 Slack 进行协作来发展业务。
 
 ![](http://p0.qhimg.com/t0121b667842df95a44.jpg)
 
 ![](http://p0.qhimg.com/t0182c4ce636375abe5.jpg)![](http://p0.qhimg.com/t01fcfa67911fecac2e.jpg)
 
-**Slack is not your another boring chat tool. It has got SWAG!**
+**Slack 不是一个无聊的聊天工具，他是 SWAG!**
 
 **_Note_**: I am just getting started to be a guest contributor at authority sites to establish credibility for my work and provide value to as many readers as possible.
 
 So, kindly tap the 💚 below to encourage my passion:)
+
+
