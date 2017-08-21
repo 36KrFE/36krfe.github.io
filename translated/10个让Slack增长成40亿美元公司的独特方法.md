@@ -120,7 +120,6 @@ _不同的用户头像，图片来源：Slack.com_
 
 如 [TNW](https://thenextweb.com/insider/2015/03/24/slack-is-quietly-unintentionally-killing-irc/#.tnw_oJAigD0o) 所述，Slack 不仅拥有不同的兴趣社区（如创业，音乐，设计），并且其他地方的社区也正在向 Slack 转移。例如，[WordPress.org](http://wordpress.org/)，是 WordPress 的开源软件社区，[放弃了复杂不友好的 RIC 频道转移至 Slack](https://make.wordpress.org/chat/)。简单的传播方式是帮助 Slack 发展用户群的重要优势。
 
-
 ### **集成技术**
 
 你是否注意到这样一件事，Slack 具有轻松集成至任何程序的独特功能，尤其是这些都是创业公司常用的应用，因此许多创业公司发现 Slack 正是一个他们需要的用于简化组织内部交流沟通的工具。
