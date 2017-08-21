@@ -1,42 +1,40 @@
 ![](http://p0.qhimg.com/t01aa1344376a93b414.jpg)
 
-> “Life is too short to do mediocre work, and it is definitely too short to build shitty things.” — [Stewart Butterfield](https://twitter.com/stewart), Co-founder of [Slack](https://slack.com/)
+> “Life is too short to do mediocre work, and it is definitely too short to build shitty things. 人生太短而不能碌碌无为，更绝不能无所事事。 ” — [Stewart Butterfield](https://twitter.com/stewart), [Slack](https://slack.com/)的联合创始人
 
-Head over to Google trends and see the interest over time for the keyword ‘Slack’.
+看看 Google Trends ，能了解关键字 “Slack” 随时间的搜索趋势变化。
 
 ![](http://p0.qhimg.com/t01fb20e9d8cd76d7b0.png)
 
-_Interest in Slack as Shown on Google Trends_
+_Slack 在 Google Trends 上的搜索指数_
 
-It is **up and growing**. In such a small amount of time, how did Slack made it possible?
+它**仍在增长**。在如此之短的时间里， Slack 是如何实现的？
 
-Let us see some amazing hacks that Slack used to grow and get till here.
+让我们聊聊 Slack 曾用来增长，直到壮大成现在(体量)的惊人黑客技巧。
 
-This is the DAU (Daily Active Users) chart of Slack
+这是 Slack 的 DAU （每日活跃用户）图表
 
 ![](http://p0.qhimg.com/t0164a1aec3586ca20e.png)
 
-_Image via_ [_Business Insider_](http://www.businessinsider.in/Billion-dollar-startup-Slack-says-its-adding-1-million-in-new-contracts-every-11-days/articleshow/46220352.cms)
+_图片来自_ [_Business Insider_](http://www.businessinsider.in/Billion-dollar-startup-Slack-says-its-adding-1-million-in-new-contracts-every-11-days/articleshow/46220352.cms)
 
-In fact, the Slack discovery was an incidental act, Stewart Butterfield and his team were working on a games app called Glitch, when their team realized how problematic it was to communicate within the organization and what an opportunity they had to streamline it. Thus, Slack was created.
+事实上， Slack 的诞生是个偶然的事， Stewart Butterfield 和他的团队正在研发一个名为 Glitch 的游戏应用程序，当他们团队意识到在组织内进行沟通是很大的难题，且这是个很好的简化机会。因此， Slack 被创建了。
 
 ![](http://p0.qhimg.com/t01f41d69a527c04ab4.png)
 
-No doubt Slack made it very clear in the minds of its audience about its positioning — defining a new space and then claiming a leadership position in that space. Apart from this, there are some unique ways through which Slack hacked its growth and we are to discuss some primary ones of them today.
+无疑， Slack 给用户脑海里留下了非常清晰的定位——定义一个新的领域，然后在这里宣称领导地位。除此之外， Slack 还有一些独特的方法，让它黑客般增长，我们今天将讨论其中的一些主要的技巧。
 
-### **The Personal Branding Hack**
+### **个人品牌**
 
-Stewart Butterfield has been a well-known guy since long. He was the co-founder of **Flickr** & became even more famous after its acquisition by Yahoo. Everyone wanted to know what Stewart’s next move would be, and even before he started Slack, he has had a good follower base. Hence, it would be safe to say that when he co-founded Slack, many of his fans from his days back at Flickr **followed him right to his next adventure**.
+Stewart Butterfield 长期以来一直是个著名人物。他是 **Flickr** 的联合创始人，并在雅虎收购后变得更出名，每个人都想知道什么是 Stewart 的下一步。甚至在他开始做 Slack 之前，就有一个很好的追随者基础。 因此可以肯定，当他共同创立了Slack，许多粉丝像重回 Flickr 当年的日子那样**跟随他的下一个冒险**。
 
 ![](http://p0.qhimg.com/t01c274adc59dd537ce.jpg)
 
-_Stewart Butterfield. Image via Flickr_
+_Stewart Butterfield. 图片来自Flickr_
 
-One thing to mention here, when you have a smart and famous personality as one of the founding partners, you need lesser marketing efforts to convince people to try out your product, and this is surely one factor that has helped Slack.
+另外，如 Quora 讨论中提到的关于[初创公司个人品牌的重要性](https://www.quora.com/How-important-is-personal-branding-of-founders-for-early-stage-startups)，大多数人做个人品牌的错在于，因为他们认为这不是你或是虚有其表。 然而，Butterfield **完全不同**：
 
-Also, as mentioned in a Quora discussion about [the importance of personal branding for early stage startups](https://www.quora.com/How-important-is-personal-branding-of-founders-for-early-stage-startups), most of the people do personal branding wrong as they think it is about being something you are not or by becoming too glossy. However, Butterfield did it **entirely differently**:
-
-_“Look at_ [_Stewart Butterfield_](https://www.quora.com/profile/Stewart-Butterfield) _from Slack for a good example as to how to do it right. I’ve rarely seen of a founder’s personal brand shining through like his honesty and candor. He swears, he has bombast but has not changed who he is or how he looks.” — Ed Zitron_
+_“看看 Slack 的_ [_Stewart Butterfield_](https://www.quora.com/profile/Stewart-Butterfield) _，一个如何把个人品牌做好的例子。我很少看到创始人的个人品牌像他的坦诚一样闪耀。 他发过誓，也有过夸张，但没有改变他是谁大家怎么看他的印象。” — Ed Zitron_
 
 ### **最佳时机**
 
