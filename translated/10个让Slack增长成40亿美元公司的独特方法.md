@@ -55,7 +55,6 @@ _也可以这么说，Slack没有想要去顶替市场上已经有的项目管�
 Slack一直非常专注于确保其网站和客户端的外观和感觉能够让它的用户之间的**沟通顺畅**。他们的主要动机是使产品足够直观，使用户无需任何指南或产品教程即可使用它。如果你还没有用过Slack，你可以试用一下，你会发现你不需要一个详细的使用手册，就可以像一个专家一样使用它了。
 
 **_如何做到这点？_**
-
 Stewart Butterfield聘请了Andrew Wilkinson经营的设计公司MetaLab。Andrew写了一篇文章介绍Slack设计原则（或者我们应该说设计信仰），你可以在这里阅读[Slack’s secret sauce](https://medium.com/@awilkinson/slack-s-2-8-billion-dollar-secret-sauce-5c5ec7117908).
 
 
