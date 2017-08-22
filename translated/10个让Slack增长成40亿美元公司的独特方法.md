@@ -1,6 +1,6 @@
 ![](http://p0.qhimg.com/t01aa1344376a93b414.jpg)
 
-> “Life is too short to do mediocre work, and it is definitely too short to build shitty things.生命之贵，不可堕于平庸，不可溺于俗事。” — [Stewart Butterfield](https://twitter.com/stewart), [Slack](https://slack.com/)的联合创始人
+> “Life is too short to do mediocre work, and it is definitely too short to build shitty things. 生命之贵，不可堕于平庸，不可溺于俗事。” — [Stewart Butterfield](https://twitter.com/stewart), [Slack](https://slack.com/)的联合创始人
 
 看看 Google Trends ，能了解关键字 “Slack” 随时间的搜索趋势变化。
 
